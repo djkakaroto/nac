@@ -1,0 +1,2752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header
+    creationtool="OmegaT"
+    creationtoolversion="2.3.0"
+    segtype="sentence"
+    o-tmf="OmegaT TMX"
+    adminlang="EN-US"
+    srclang="EN-US"
+    datatype="plaintext"
+  >
+  </header>
+  <body>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(&lt;a1&gt;http://inverse.ca&lt;/a1&gt;)</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T183306Z" changeid="djkakaroto">
+        <seg>(&lt;a1&gt;http://inverse.ca&lt;/a1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>+ 1 for high-availability</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T232102Z" changeid="djkakaroto">
+        <seg>+ 1 para alta disponibilidade</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>+ 1 for intrusion detection</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T232135Z" changeid="djkakaroto">
+        <seg>+ 1 para detecção de intrusão</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>10</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T173923Z" changeid="djkakaroto">
+        <seg>10</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>11</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T174118Z" changeid="djkakaroto">
+        <seg>11</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>12</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T174242Z" changeid="djkakaroto">
+        <seg>12</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>13</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T174338Z" changeid="djkakaroto">
+        <seg>13</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>14</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T174403Z" changeid="djkakaroto">
+        <seg>14</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>15</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T174445Z" changeid="djkakaroto">
+        <seg>15</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>16</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T174639Z" changeid="djkakaroto">
+        <seg>16</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>17</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T174818Z" changeid="djkakaroto">
+        <seg>17</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>18</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T174835Z" changeid="djkakaroto">
+        <seg>18</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>19</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T174918Z" changeid="djkakaroto">
+        <seg>19</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>20</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175002Z" changeid="djkakaroto">
+        <seg>20</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>22</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175129Z" changeid="djkakaroto">
+        <seg>22</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>24</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175225Z" changeid="djkakaroto">
+        <seg>24</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>27</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175401Z" changeid="djkakaroto">
+        <seg>27</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>30</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175429Z" changeid="djkakaroto">
+        <seg>30</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>32</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175444Z" changeid="djkakaroto">
+        <seg>32</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>36</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175512Z" changeid="djkakaroto">
+        <seg>36</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>37</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175602Z" changeid="djkakaroto">
+        <seg>37</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>38</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175640Z" changeid="djkakaroto">
+        <seg>38</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>39</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175720Z" changeid="djkakaroto">
+        <seg>39</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>40</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175723Z" changeid="djkakaroto">
+        <seg>40</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>41</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175725Z" changeid="djkakaroto">
+        <seg>41</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>42</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175726Z" changeid="djkakaroto">
+        <seg>42</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>43</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175748Z" changeid="djkakaroto">
+        <seg>43</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>44</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175750Z" changeid="djkakaroto">
+        <seg>44</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>45</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175827Z" changeid="djkakaroto">
+        <seg>45</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>49</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T180012Z" changeid="djkakaroto">
+        <seg>49</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>51</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T180145Z" changeid="djkakaroto">
+        <seg>51</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>52</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T180247Z" changeid="djkakaroto">
+        <seg>52</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>54</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T180447Z" changeid="djkakaroto">
+        <seg>54</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>55</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T180545Z" changeid="djkakaroto">
+        <seg>55</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>6</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T173510Z" changeid="djkakaroto">
+        <seg>6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>64</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T180636Z" changeid="djkakaroto">
+        <seg>64</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>68</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T180724Z" changeid="djkakaroto">
+        <seg>68</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>69</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T180842Z" changeid="djkakaroto">
+        <seg>69</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>7</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T173810Z" changeid="djkakaroto">
+        <seg>7</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>70</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T181118Z" changeid="djkakaroto">
+        <seg>70</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>72</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T181120Z" changeid="djkakaroto">
+        <seg>72</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>74</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T184429Z" changeid="djkakaroto">
+        <seg>74</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>75</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T184432Z" changeid="djkakaroto">
+        <seg>75</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>77</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T184453Z" changeid="djkakaroto">
+        <seg>77</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>78</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T184530Z" changeid="djkakaroto">
+        <seg>78</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>802.1X</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T194435Z" changeid="djkakaroto">
+        <seg>802.1X</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>81</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T184638Z" changeid="djkakaroto">
+        <seg>81</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>85</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T184720Z" changeid="djkakaroto">
+        <seg>85</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>86</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T185325Z" changeid="djkakaroto">
+        <seg>86</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>87</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T185341Z" changeid="djkakaroto">
+        <seg>87</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>9</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T173915Z" changeid="djkakaroto">
+        <seg>9</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;/a3&gt;&lt;f5&gt;gpgcheck=0&lt;/f5&gt;</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110813T214737Z" changeid="djkakaroto">
+        <seg>&lt;/a3&gt;&lt;f5&gt;gpgcheck=0&lt;/f5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;/f5&gt;&lt;/f4&gt;&lt;f6&gt;&lt;f7&gt;This script will guide you through the process of creating a working PacketFence configuration file that is suitable to your needs.&lt;/f7&gt;&lt;/f6&gt;</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T011605Z" changeid="djkakaroto">
+        <seg>&lt;/f5&gt;&lt;/f4&gt;&lt;f6&gt;&lt;f7&gt;Este script irá guiá-lo através do processo de criação de um arquivo de configuração de trabalho do PacketFence que seja adequado às suas necessidades.&lt;/f7&gt;&lt;/f6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;Nessus&lt;/a0&gt;&lt;f1&gt; vulnerability scans can be performed upon registration, scheduled or on an ad-hoc basis.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T222659Z" changeid="djkakaroto">
+        <seg>&lt;a0&gt;Nessus&lt;/a0&gt;&lt;f1&gt; varreduras de vulnerabilidade pode ser executado no momento do registro, programado ou numa base ad-hoc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;f0&gt;/usr/local/pf/conf/documentation.conf&lt;/f0&gt; holds the complete list of all available parameters.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T014615Z" changeid="djkakaroto">
+        <seg>&lt;f0&gt;/usr/local/pf/conf/documentation.conf&lt;/f0&gt; contém a lista completa de todos os parâmetros disponíveis.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;f0&gt;802.1X wireless and wired is supported through a &lt;/f0&gt;&lt;a1&gt;FreeRADIUS&lt;/a1&gt;&lt;f2&gt; module.&lt;/f2&gt;</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T194752Z" changeid="djkakaroto">
+        <seg>&lt;f0&gt;802.1X sem fio e com fio é suportado através de um módulo &lt;/f0&gt;&lt;a1&gt;FreeRADIUS&lt;/a1&gt;&lt;f2&gt;.&lt;/f2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;f0&gt;&lt;f1&gt;Keep in mind that the resulting PacketFence configuration will be located in &lt;s2/&gt;&lt;/f1&gt;&lt;/f0&gt;&lt;f3&gt;&lt;f4&gt;/usr/local/pf/conf/pf.conf&lt;/f4&gt;&lt;/f3&gt;&lt;f5&gt;&lt;f6&gt;,&lt;/f6&gt;&lt;/f5&gt;&lt;f7&gt;&lt;f8&gt; and it can always be adjusted by hand afterward.&lt;/f8&gt;&lt;/f7&gt;</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T012715Z" changeid="djkakaroto">
+        <seg>&lt;f0&gt;&lt;f1&gt;Tenha em mente que a configuração resultante do PacketFence será localizado em &lt;s2/&gt;&lt;/f1&gt;&lt;/f0&gt;&lt;f3&gt;&lt;f4&gt;/usr/local/pf/conf/pf.conf&lt;/f4&gt;&lt;/f3&gt;&lt;f5&gt;&lt;f6&gt;,&lt;/f6&gt;&lt;/f5&gt;&lt;f7&gt;&lt;f8&gt; e ele sempre pode ser ajustado manualmente depois.&lt;/f8&gt;&lt;/f7&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;f0&gt;PacketFence is developed by a community of developers located mainly in North America.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T225617Z" changeid="djkakaroto">
+        <seg>&lt;f0&gt;PacketFence é desenvolvido por uma comunidade de desenvolvedores localizados principalmente na América do Norte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;f0&gt;Use a very strong password&lt;/f0&gt;&lt;f1&gt;.&lt;/f1&gt; You will never have to enter it more than once.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T013624Z" changeid="djkakaroto">
+        <seg>&lt;f0&gt;Use uma senha forte&lt;/f0&gt;&lt;f1&gt;.&lt;/f1&gt; Você nunca terá que entrar mais de uma vez.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;f0&gt;[PacketFence]&lt;br1/&gt;</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110813T214722Z" changeid="djkakaroto">
+        <seg>&lt;f0&gt;[PacketFence]&lt;br1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;f0&gt;network_detection_ip&lt;/f0&gt; under &lt;f1&gt;[captive_portal]&lt;/f1&gt;</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T015439Z" changeid="djkakaroto">
+        <seg>&lt;f0&gt;network_detection_ip&lt;/f0&gt; em &lt;f1&gt;[captive_portal]&lt;/f1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;f0&gt;redirecturl&lt;/f0&gt; under &lt;f1&gt;[trapping]&lt;/f1&gt;</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T015051Z" changeid="djkakaroto">
+        <seg>&lt;f0&gt;redirecturl&lt;/f0&gt; em &lt;f1&gt;[trapping]&lt;/f1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0/&gt;A copy of the license is included in the section entitled “GNU Free Documentation License”.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T173345Z" changeid="djkakaroto">
+        <seg>&lt;s0/&gt;Uma cópia da licença está incluída na seção intitulado &quot;GNU Free Documentation License”.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0/&gt;Depending on what you want to achieve, we strongly recommend that you start with the “VLAN isolation mode with Registration and Detection (snort)” template (option t template 8).</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T012149Z" changeid="djkakaroto">
+        <seg>&lt;s0/&gt;Dependendo do que você queira conseguir, nós recomendamos fortemente que você começe com o &quot;modo de isolamento VLAN com Registro e Detecção (snort)&quot; modelo (opção t modelo 8).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0/&gt;In the /etc/yum.repos.d/rpmforge.repo, set enabled to 0 under the rpmforge section:</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110812T001716Z" changeid="djkakaroto">
+        <seg>&lt;s0/&gt;No arquivo /etc/yum.repos.d/rpmforge.repo, altere sob a seção rpmforge para 0:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0/&gt;You will need to explicitly disable it in the &lt;f1&gt;/etc/selinux/config&lt;/f1&gt; file.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T023121Z" changeid="djkakaroto">
+        <seg>&lt;s0/&gt;Você precisará desativá-lo explicitamente no arquivo em &lt;f1&gt;/etc/selinux/config&lt;/f1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s1/&gt;Those certificates can be replaced anytime by your 3rd-party or existing wildcard certificate without problems.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T022621Z" changeid="djkakaroto">
+        <seg>&lt;s1/&gt;Estes certificados podem ser substituídos a qualquer momento pelo seu terceiro ou certificado curinga existente sem problemas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s2/&gt;Please note that the CN (Common Name) needs to be the same as the one defined in the PacketFence configuration file (pf.conf).</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T022712Z" changeid="djkakaroto">
+        <seg>&lt;s2/&gt;Por favor, note que o CN (Common Name) deve ser o mesmo que o definido no arquivo de configuração do PacketFence (pf.conf).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A set of configurable actions for each violation is available to administrators.&lt;/f2&gt;</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T222151Z" changeid="djkakaroto">
+        <seg>Um conjunto de ações configuráveis para cada violação está disponível para administradores.&lt;/f2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Abnormal network activities (computer virus, worms, spyware, traffic denied by establishment policy, etc.) can be detected using local and remote &lt;/f0&gt;&lt;a1&gt;Snort&lt;/a1&gt;&lt;f2&gt; sensors.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T202142Z" changeid="djkakaroto">
+        <seg>Atividades anormal de rede (vírus de computador, worms, spyware, tráfego negado por políticas estabelecidas, etc.) pode ser detectado usando sensores &lt;/f0&gt;&lt;a1&gt;Snort&lt;/a1&gt;&lt;f2&gt; locais e remotos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>About this Guide</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T173508Z" changeid="djkakaroto">
+        <seg>Sobre este Guia</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Additional Information</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T184718Z" changeid="djkakaroto">
+        <seg>Informação Adicional</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Administration Guide</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T172231Z" changeid="djkakaroto">
+        <seg>Guia de Administração</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Affected browsers are Firefox 3 and Firefox 4.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T015425Z" changeid="djkakaroto">
+        <seg>Navegadores afetados são Firefox 3 e Firefox 4.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All of these parameters are also accessible through the Web Administration interface under the Configuration tab.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T014658Z" changeid="djkakaroto">
+        <seg>Todos estes parâmetros também são acessíveis através da interface Web de Administração sob a guia Configuração.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All the default parameters and their descriptions are stored in &lt;f0&gt;/usr/local/pf/conf/pf.conf.defaults&lt;/f0&gt;.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T014329Z" changeid="djkakaroto">
+        <seg>Todos os parâmetros padrões e suas descrições são armazenadas em &lt;f0&gt;/usr/local/pf/conf/pf.conf.defaults&lt;/f0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All this information is stored in &lt;f0&gt;/usr/local/pf/conf/switches.conf&lt;/f0&gt;.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T025616Z" changeid="djkakaroto">
+        <seg>Todas essas informações são armazenadas em &lt;f0&gt;/usr/local/pf/conf/switches.conf&lt;/f0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Also called IP Telephony (IPT), VoIP is fully supported (even in heterogeneous environments) for multiple switch vendors (Cisco, Edge-Core, HP, LinkSys, Nortel Networks and many more).</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T194432Z" changeid="djkakaroto">
+        <seg>Também chamado de Telefonia IP (IPT), VoIP é totalmente suportada (mesmo em ambientes heterogêneos) para mútiplos fornecedores de switch (Cisco, Edge-Core, HP, LinkSys, Nortel Networks e muito mais).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An Acceptable Use Policy can be specified such that users cannot enable network access without first accepting it.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T201048Z" changeid="djkakaroto">
+        <seg>Uma Política de Utilização aceitável podem ser especificados de tal forma que os usuários não podem permitir o acesso à rede sem antes aceitá-lo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Apache 2.2</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T231741Z" changeid="djkakaroto">
+        <seg>Apache 2.2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Apache Configuration</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T174830Z" changeid="djkakaroto">
+        <seg>Configuração do Apache</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Appendix A: Administration Tools</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T184428Z" changeid="djkakaroto">
+        <seg>Apêndice A: Ferramentas de Administração</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Appendix B : Manual FreeRADIUS 2 configuration</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T184528Z" changeid="djkakaroto">
+        <seg>Apêndice B : Manual de Configuração do FreeRADIUS 2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Appendix C: Legacy FreeRADIUS 1.x configuration</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T184637Z" changeid="djkakaroto">
+        <seg>Apêndice C: Configuração legada do FreeRADIUS 1.x</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As previously mentioned, we assume that those components run on the same server on which PacketFence is being installed.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T001116Z" changeid="djkakaroto">
+        <seg>Como mencionado anteriormente, assumimos que todos os componentes são executados no mesmo servidor em que o PacketFence está sendo instalado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Assumptions</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T174143Z" changeid="djkakaroto">
+        <seg>Suposições</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Authentication (flat file, LDAP/AD, RADIUS)</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T023209Z" changeid="djkakaroto">
+        <seg>Autenticação (arquivo simples, LDAP/AD, RADIUS)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>BIND 9</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T231757Z" changeid="djkakaroto">
+        <seg>BIND 9</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Based on the node's current status (unregistered, open violation, etc), the user is redirected to the appropriate URL.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T223922Z" changeid="djkakaroto">
+        <seg>Com base no estado atual do nó (não registrado, violação, etc) o usuário é redirecionado para a URL apropriada.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Beyond simple detection, PacketFence layers its own alerting and suppression mechanism on each alert type.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T222011Z" changeid="djkakaroto">
+        <seg>Além de detecção simples, PacketFence possui sua própria camada de alerta e mecanismo de repressão em cada tipo de alerta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Blocking malicious activities with violations</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175906Z" changeid="djkakaroto">
+        <seg>Bloqueando atividades maliciosas com violações</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Boosting an impressive feature set including a captive-portal for registration and remediation, centralized wired and wireless management, 802.1X support, layer-2 isolation of problematic devices, integration with the Snort IDS and the Nessus vulnerability scanner; PacketFence can be used to effectively secure networks - from small to very large heterogeneous networks.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T195828Z" changeid="djkakaroto">
+        <seg>Impulsionar um conjunto de características impressionantes, incluindo um Captive Portal para registro e remediação, gerenciamento centralizado com fio e sem-fio, suporte 802.1x, isolamento de dispositivos problemáticos na camada 2, integração com o IDS Snort e do scanner de vulnerabilidade Nessus; PacketFence pode ser usado efetivamente para redes seguras - de pequena a grandes redes heterogêneas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default we will make this reach PacketFence's website as an easier and more accessible solution.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T021653Z" changeid="djkakaroto">
+        <seg>Por padrão, nos faremos o web site deste PacketFence chegar como uma solução mais fácil e mais acessível.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default, PacketFence looks into &lt;f0&gt;/usr/local/pf/conf/user.conf&lt;/f0&gt; to find users allowed to register devices.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T023455Z" changeid="djkakaroto">
+        <seg>Por padrão, o PacketFence olha para &lt;f0&gt;/usr/local/pf/conf/user.conf&lt;/f0&gt; para encontrar os usuários autorizados a registrar dispositivos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Captive Portal</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T014725Z" changeid="djkakaroto">
+        <seg>Captive Portal</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Captive portal optimizations</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T195724Z" changeid="djkakaroto">
+        <seg>Otimizações no Captive Portal</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T173441Z" changeid="djkakaroto">
+        <seg>Capítulo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 1</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T173451Z" changeid="djkakaroto">
+        <seg>Capítulo 1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 10</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T180727Z" changeid="djkakaroto">
+        <seg>Capítulo 10</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 11</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T180845Z" changeid="djkakaroto">
+        <seg>Capítulo 11</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 12</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T184022Z" changeid="djkakaroto">
+        <seg>Capítulo 12</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 13</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T184457Z" changeid="djkakaroto">
+        <seg>Capítulo 13</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 14</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T184535Z" changeid="djkakaroto">
+        <seg>Capítulo 14</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 15</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T184704Z" changeid="djkakaroto">
+        <seg>Capítulo 15</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 16</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T184724Z" changeid="djkakaroto">
+        <seg>Capítulo 16</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 17</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T185328Z" changeid="djkakaroto">
+        <seg>Capítulo 17</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 2</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T173740Z" changeid="djkakaroto">
+        <seg>Capítulo 2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 3</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T173932Z" changeid="djkakaroto">
+        <seg>Capítulo 3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 4</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T174349Z" changeid="djkakaroto">
+        <seg>Capítulo 4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 5</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T174629Z" changeid="djkakaroto">
+        <seg>Capítulo 5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 6</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175531Z" changeid="djkakaroto">
+        <seg>Capítulo 6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 7</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175753Z" changeid="djkakaroto">
+        <seg>Capítulo 7</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 8</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T180250Z" changeid="djkakaroto">
+        <seg>Capítulo 8</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 9</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T180548Z" changeid="djkakaroto">
+        <seg>Capítulo 9</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Command-line and Web-based management</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T225356Z" changeid="djkakaroto">
+        <seg>Linha de comando e gerenciamento baseado na Web</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Commercial Support and Contact Information</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T185313Z" changeid="djkakaroto">
+        <seg>Suporte Comercial e Informações de Contato</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Community ENTerprise Operating System (CentOS) 5.x</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T233519Z" changeid="djkakaroto">
+        <seg>Community Enterprise Operating System (CentOS) 5.x</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Components</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T173920Z" changeid="djkakaroto">
+        <seg>Componentes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Configuration</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T174638Z" changeid="djkakaroto">
+        <seg>Configuração</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Configuration by example</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175559Z" changeid="djkakaroto">
+        <seg>Configuração pelo exemplo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Conformity Scan (Nessus)</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T180130Z" changeid="djkakaroto">
+        <seg>Submissão de Varredura (Nessus)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Contents</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T173421Z" changeid="djkakaroto">
+        <seg>Sumário</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Contrary to most captive portal solutions, PacketFence remembers users who &lt;t0/&gt;previously registered and will automatically give them access without another authentication.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T200704Z" changeid="djkakaroto">
+        <seg>Ao contrário da maioria das soluções Captive Portal, PacketFence lembra os usuários &lt;t0/&gt;previamente registrados e automaticamente dar-lhes acesso sem outra autenticação.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Copyright © &lt;s0/&gt;2008-2011 Inverse inc.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T183305Z" changeid="djkakaroto">
+        <seg>Copyright © &lt;s0/&gt;2008-2011 Inverse inc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>DHCP 3</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T231748Z" changeid="djkakaroto">
+        <seg>DHCP 3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>DHCP and DNS Server Configuration</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175746Z" changeid="djkakaroto">
+        <seg>Configuração DHCP e Servidor DNS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>DHCP and DNS Server Configuration (networks.conf)</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175224Z" changeid="djkakaroto">
+        <seg>Configuração DHCP e Servidor DNS (networks.conf)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>DHCP server</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T231746Z" changeid="djkakaroto">
+        <seg>Servidor DHCP</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>DHCP server (ISC DHCP)</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T230233Z" changeid="djkakaroto">
+        <seg>Servidor DHCP (ISC DHCP)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>DNS server</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T231754Z" changeid="djkakaroto">
+        <seg>Servidor DNS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>DNS server (BIND)</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T230243Z" changeid="djkakaroto">
+        <seg>Servidor DNS (BIND)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Database server (MySQL)</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T230035Z" changeid="djkakaroto">
+        <seg>Servidor de Banco de Dados (MySQL)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Default SNMP read/write communities for the switches</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T030257Z" changeid="djkakaroto">
+        <seg>Padrão SNMP de comunidades de leitura/gravação para os switches</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Default VLAN assignment</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175127Z" changeid="djkakaroto">
+        <seg>Atribuição da VLAN padrão</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Default working mode (see note about working mode below)</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T030550Z" changeid="djkakaroto">
+        <seg>Modo de trabalho padrão (veja a nota sobre o modo de trabalho abaixo)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Depending on your setup you may have to install additional components like:</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T230223Z" changeid="djkakaroto">
+        <seg>Dependendo da configuração você pode ter que instalar componentes adicionais como:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Detection of abnormal network activities</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T201807Z" changeid="djkakaroto">
+        <seg>Detecção de atividades anormal de rede.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Developers Guide – Covers captive portal customization, VLAN management customization and instructions for supporting new hardware.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T195802Z" changeid="djkakaroto">
+        <seg>Guia do Desenvolvedor – Personalização do Captive Portal, VLAN personalização de gerência e instruções para suportar novo hardware.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Disable SELinux</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T235513Z" changeid="djkakaroto">
+        <seg>Desative o SELinux</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Disable the repository by default.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110812T001423Z" changeid="djkakaroto">
+        <seg>Desabilitar o repositório por padrão.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Edit &lt;f0&gt;/usr/local/pf/conf/authentication/ldap.pm&lt;/f0&gt; and make the necessary changes to the following parameters :</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T023818Z" changeid="djkakaroto">
+        <seg>Edite &lt;f0&gt;/usr/local/pf/conf/authentication/ldap.pm&lt;/f0&gt; e faça as alterações necessárias para os seguintes parâmetros :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Edit &lt;f0&gt;/usr/local/pf/conf/authentication/radius.pm&lt;/f0&gt; and make the necessary changes to the following parameters:</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T023954Z" changeid="djkakaroto">
+        <seg>Edite &lt;f0&gt;/usr/local/pf/conf/authentication/radius.pm&lt;/f0&gt; e faça as alterações necessárias para os seguintes parâmetros:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Enable Firewall</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T235501Z" changeid="djkakaroto">
+        <seg>Ative o Firewall</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Even if this feature may be wanted by some organizations, PacketFence will not run properly if SELinux is set to enforced.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110815T223039Z" changeid="djkakaroto">
+        <seg>Mesmo que essa característica pode ser querida por algumas organizações, o PacketFence não será executado corretamente se o SELinux está definido para enforced.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Execute the installer at &lt;f0&gt;/usr/local/pf/installer.pl&lt;/f0&gt; and follow the instructions.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110813T220335Z" changeid="djkakaroto">
+        <seg>Execute o instador em &lt;f0&gt;/usr/local/pf/installer.pl&lt;/f0&gt; e siga as instruções.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Features</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T173836Z" changeid="djkakaroto">
+        <seg>Características</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>First Step</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T174701Z" changeid="djkakaroto">
+        <seg>Primeira Etapa</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>First import the DAG RPM GPG key:</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110812T001202Z" changeid="djkakaroto">
+        <seg>Primeiro, importe a chave DAG RPM GPG:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Flat file</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T023413Z" changeid="djkakaroto">
+        <seg>Arquivo simples</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Floating Network Devices</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T180246Z" changeid="djkakaroto">
+        <seg>Dispositivos de Rede Flutuante</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For a list of compatibility related changes and notes about upgrading see the &lt;f0&gt;UPGRADE&lt;/f0&gt; file.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T191309Z" changeid="djkakaroto">
+        <seg>Para uma lista de alterações relacionadas com a compatibilidade e notas sobre a atualização ver o arquivo &lt;f0&gt;UPGRADE&lt;/f0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, if you are using Red Hat Enterprise Linux 5, you have to be subscribed to the Red Hat Network before continuing with the PacketFence software installation.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T234216Z" changeid="djkakaroto">
+        <seg>Por exemplo, se você estiver usando o Red Hat Enterprise Linux 5, você tem que ser inscrito no Red Hat Network antes de continuar com a instalação do software PacketFence.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, this is the place where we inform PacketFence it will work in VLAN isolation mode.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T014238Z" changeid="djkakaroto">
+        <seg>Por exemplo, este é o lugar onde informamos que o PacketFence trabalhará no modo de isolamento VLAN.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For more details and developer visible changes see the &lt;f0&gt;ChangeLog&lt;/f0&gt; file.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T191558Z" changeid="djkakaroto">
+        <seg>Para mais detalhes e mudanças visíveis no desenvolvimento ver o arquivo &lt;f0&gt;ChangeLog&lt;/f0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For some browsers, is it preferable to redirect the user to a specific URL instead of the URL the user originally intended to visit.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T015129Z" changeid="djkakaroto">
+        <seg>Para alguns navegadores, é preferível redirecionar o usuário para uma URL específica em vez da URL que o usuário originalmente pretendia visitar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For the list of noteworthy changes since the last release see the &lt;f0&gt;NEWS&lt;/f0&gt; file.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T191526Z" changeid="djkakaroto">
+        <seg>Para uma lista de mudanças notáveis desde a última versão ver o arquivo &lt;f0&gt;NEWS&lt;/f0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For these browsers, the URL defined in &lt;f0&gt;redirecturl&lt;/f0&gt; will be the one where the user will be redirected.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T015247Z" changeid="djkakaroto">
+        <seg>Para estes navegadores, a URL definida em &lt;f0&gt;redirectUrl&lt;/f0&gt; será a única onde o usuário será redirecionado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>FreeRADIUS</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175749Z" changeid="djkakaroto">
+        <seg>FreeRADIUS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>FreeRADIUS 2</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T231806Z" changeid="djkakaroto">
+        <seg>FreeRADIUS 2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>FreeRADIUS Configuration</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175443Z" changeid="djkakaroto">
+        <seg>Configuração do FreeRADIUS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Frequently Asked Questions</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T180841Z" changeid="djkakaroto">
+        <seg>Perguntas Frequentes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>GNU Free Documentation License</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T185336Z" changeid="djkakaroto">
+        <seg>GNU Free Documentation License</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Global configuration file (pf.conf)</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T174817Z" changeid="djkakaroto">
+        <seg>Arquivo de configuração global (pf.conf)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Good understanding of those underlying component and GNU/Linux is required to install PacketFence.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T231142Z" changeid="djkakaroto">
+        <seg>Uma boa compreensão daqueles componentes e GNU/Linux é necessário para instalar o PacketFence.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Hence, the script will ask some more information about your network infrastructure, like the DNS servers, and the DHCP servers address, etc.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T012337Z" changeid="djkakaroto">
+        <seg>Assim, o script vai pedir mais algumas informações sobre sua infra-estrutura de rede, como os servidores DNS e os servidores de endereços DHCP, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here are instructions to enable that repository: &lt;a1&gt;http://fedoraproject.org/wiki/EPEL/FAQ#howtouse&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T233408Z" changeid="djkakaroto">
+        <seg>Aqui estão as instruções para ativar esse repositório: &lt;a1&gt;http://fedoraproject.org/wiki/EPEL/FAQ#howtouse&lt;/a1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>High availability</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T180544Z" changeid="djkakaroto">
+        <seg>Alta Disponibilidade</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If more than one method are specified, PF will display a pull-down list to allow users to select the preferred authentication method.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T024340Z" changeid="djkakaroto">
+        <seg>Se mais de um método são especificados, PF irá exibir uma lista suspensa para permitir aos usuários selecionar o método de autenticação preferido.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you miss some of those required components, please refer to the appropriate documentation and proceed with the installation of these requirements before continuing with this guide.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T231454Z" changeid="djkakaroto">
+        <seg>Se você faltar alguns desses componentes necessários, por favor consulte a documentação apropriada e prossiga com a instalação destes requisitos antes de continuar com este guia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you used the installer.pl script, you should have self-signed SSL certificates in &lt;f0&gt;/usr/local/pf/conf/ssl&lt;/f0&gt; (server.key and server.crt).</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T022304Z" changeid="djkakaroto">
+        <seg>Se você usou o script installer.pl, você deve ter certificados SSL auto-assinados em &lt;f0&gt;/usr/local/pf/conf/ssl&lt;/f0&gt; (Server.key e server.crt).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want to use a different file, edit &lt;f1&gt;/usr/local/pf/conf/authentication/local.pm&lt;/f1&gt;&lt;f2&gt; &lt;/f2&gt;and change the following parameter :</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T023624Z" changeid="djkakaroto">
+        <seg>Se você quiser usar um arquivo diferente, edite &lt;f1&gt;/usr/local/pf/conf/authentication/local.pm&lt;/f1&gt;&lt;f2&gt; &lt;/f2&gt; e altere o seguinte parâmetro:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Important parameters to configure regarding the captive portal are the following:</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T014944Z" changeid="djkakaroto">
+        <seg>Parâmetros importantes a configurar a respeito do captive portal são os seguintes:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In order to access the interface you need to create an administrator and a web services account.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T013154Z" changeid="djkakaroto">
+        <seg>Afim de acessar a interface você precisa criar uma conta administrador e uma de serviços web.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In order to override a default parameter, define it and set it in &lt;f0&gt;pf.conf&lt;/f0&gt;.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T014529Z" changeid="djkakaroto">
+        <seg>A fim de substituir um parâmetro padrão, defina-o e ajuste-o em &lt;f0&gt;pf.conf&lt;/f0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In order to properly begin the configuration of PacketFence, we strongly recommend to execute the configuration scrip&lt;f0&gt;t located at&lt;/f0&gt;&lt;f1&gt; &lt;/f1&gt;&lt;f2&gt;&lt;f3&gt;/usr/local/pf/configurator.pl&lt;/f3&gt;&lt;/f2&gt;&lt;f4&gt;&lt;f5&gt;.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T010151Z" changeid="djkakaroto">
+        <seg>Afim de começar corretamente a configuração do PacketFence, recomendamos executar o script de configuração&lt;f0&gt; localizado em&lt;/f0&gt;&lt;f1&gt;&lt;/f1&gt;&lt;f2&gt;&lt;f3&gt;/usr/local/pf/configurator.pl&lt;/f3&gt;&lt;/f2&gt;&lt;f4&gt;&lt;f5&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In order to use the repository, just create a file named &lt;f0&gt;/etc/yum.repos.d/PacketFence.repo&lt;/f0&gt; with the following content:</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110813T214718Z" changeid="djkakaroto">
+        <seg>Para usar o repositório, basta criar um arquivo chamado &lt;f0&gt;/etc/yum.repos.d/PacketFence.repo&lt;/f0&gt; com o seguinte conteúdo:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the case of a violation, the user will be presented with instructions for the particular situation he/she is in reducing costly help desk intervention.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T225309Z" changeid="djkakaroto">
+        <seg>No caso de uma violação, o usuário será apresentado com as instruções para a situação em particular dele/dela, reduzindo a intervenção do serviço de ajuda.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this guide, we assume that all those components are running on the same server (i.e., “&lt;f0&gt;localhost&lt;/f0&gt;” or “&lt;f1&gt;127.0.0.1&lt;/f1&gt;”) that PacketFence will be installed on.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T230753Z" changeid="djkakaroto">
+        <seg>Neste guia, partimos do princípio de que todos os componentes estão em execução no mesmo servidor (ex., “&lt;f0&gt;localhost&lt;/f0&gt;” ou “&lt;f1&gt;127.0.0.1&lt;/f1&gt;”) que o PacketFence será instalado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this section, you'll learn how to configure PacketFence with VLAN mode.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T000304Z" changeid="djkakaroto">
+        <seg>Nesta seção, você aprenderá como configurar o PacketFence com o modo VLAN.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Install your distribution with minimal installation and no additional packages.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T235332Z" changeid="djkakaroto">
+        <seg>Instalar sua distribuição com a instalação mínima e nenhum pacote adicional.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Installation</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T174401Z" changeid="djkakaroto">
+        <seg>Instalação</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Introduction</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T173805Z" changeid="djkakaroto">
+        <seg>Introdução</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Iptables</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T180448Z" changeid="djkakaroto">
+        <seg>Iptables</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Isolation of problematic devices</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T223117Z" changeid="djkakaroto">
+        <seg>Isolamento de dispositivos problemáticos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It cannot be a domain name since it is used in registration or quarantine where DNS is black-holed.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T020601Z" changeid="djkakaroto">
+        <seg>Não pode ser um nome de domínio, uma vez que é usado em registro ou quarentena onde o DNS é rejeitado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It covers mainly VLAN assignment mode.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T185620Z" changeid="djkakaroto">
+        <seg>Abrange principalmente o modo de atribuição de VLAN.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is &lt;f0&gt;disabled&lt;/f0&gt; by default.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T233900Z" changeid="djkakaroto">
+        <seg>É &lt;f0&gt;desativado&lt;/f0&gt; por padrão.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is enabled by default.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T233751Z" changeid="djkakaroto">
+        <seg>Ele é ativado por padrão.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is recommended that you allow your users to reach your PacketFence server and put your LAN's PacketFence IP.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T021231Z" changeid="djkakaroto">
+        <seg>É recomendado que você permita que seus usuários cheguem ao seu servidor PacketFence e coloque o IP da sua LAN no PacketFence.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>LDAP / Active Directory (AD)</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T023707Z" changeid="djkakaroto">
+        <seg>LDAP / Active Directory (AD)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>List of VLANs managed by PacketFence</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T030011Z" changeid="djkakaroto">
+        <seg>Lista de VLANs gerenciado pelo PacketFence</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Log Rotations</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T180521Z" changeid="djkakaroto">
+        <seg>Rotações de Log</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Log files</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175520Z" changeid="djkakaroto">
+        <seg>Arquivos de Log</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Make sure that all the other services are automatically started by your operating system!</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T235047Z" changeid="djkakaroto">
+        <seg>Certifique-se de que todos os outros serviços são automaticamente iniciados pelo seu sistema operacional</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Make sure that you can install additional packages from your standard distribution.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T234023Z" changeid="djkakaroto">
+        <seg>Certifique-se de que você pode instalar pacotes adicionais apartir de sua distribuição padrão.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Make sure your system is up to date and your yum database is updated:</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T235856Z" changeid="djkakaroto">
+        <seg>Certifique-se de que seu sistema está atualizado e seu banco de dados está atualizado:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Minimum Hardware Requirements</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T174234Z" changeid="djkakaroto">
+        <seg>Requisitos Mínimo de Hardware</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Mixing Access Points (AP) vendors and Wireless Controllers is supported.&lt;/f2&gt;</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T195309Z" changeid="djkakaroto">
+        <seg>Mistura de fornecedores de pontos de acesso (AP) e controladores sem fio é suportado.&lt;/f2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>More information can be found on &lt;/f0&gt;&lt;a1&gt;http://www.packetfence.org&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T225654Z" changeid="djkakaroto">
+        <seg>Mais informações podem ser encontradas em &lt;/f0&gt;&lt;a1&gt;http://www.packetfence.org&lt;/a1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>More on SNMP traps VLAN isolation</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T184343Z" changeid="djkakaroto">
+        <seg>Mais sobre SNMP traps e isolamento de VLAN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>More recent versions of the software mentioned above can also be used.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T231918Z" changeid="djkakaroto">
+        <seg>Versões mais recentes dos softwares mencionados acima também podem ser usados.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>MySQL 4.1 or 5.1</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T231710Z" changeid="djkakaroto">
+        <seg>MySQL 4.1 ou 5.1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>MySQL optimizations</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T180655Z" changeid="djkakaroto">
+        <seg>Otimizações no MySQL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>MySQL server</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T231730Z" changeid="djkakaroto">
+        <seg>Servidor MySQL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>NIDS (Snort)</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T230259Z" changeid="djkakaroto">
+        <seg>NIDS (Snort)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Network Device Definition (switches.conf)</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175001Z" changeid="djkakaroto">
+        <seg>Definição dos dispositivos da Rede (switches.conf)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Network Devices Configuration Guide – Covers switch, controllers and access points configuration.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T190147Z" changeid="djkakaroto">
+        <seg>Guia de Configuração de Dispositivos de Rede - Switch, controladores e configuração de Access Points.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Network Integration</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T173913Z" changeid="djkakaroto">
+        <seg>Integração de Rede</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Network Interfaces</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175639Z" changeid="djkakaroto">
+        <seg>Interfaces de Rede</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>OS Installation</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T235245Z" changeid="djkakaroto">
+        <seg>Instalação do Sistema Operacional</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Of course, this is configurable.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T200746Z" changeid="djkakaroto">
+        <seg>Claro, isso é configurável.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Oinkmaster</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T180044Z" changeid="djkakaroto">
+        <seg>Oinkmaster</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once PacketFence is started, administration interface is available at: https://&lt;hostname&gt;:1443/</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T013811Z" changeid="djkakaroto">
+        <seg>Uma vez que o PacketFence é iniciado, a interface de administração está disponível em: https:// &lt;hostname&gt; : 1443 /</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once completed, PacketFence will be fully installed on your server.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110813T220518Z" changeid="djkakaroto">
+        <seg>Uma vez completado, o PacketFence será totalmente instalado em seu servidor.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once the repository is defined, you can install PacketFence with all it's dependencies, and the required external services (DNS server, Database server, DHCP server, RADIUS server) using:</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110813T215459Z" changeid="djkakaroto">
+        <seg>Uma vez definido o repositório, você pode instalar o PacketFence com todas as dependências necessárias aos serviços (DNS, servidor de banco de dados, servidor DHCP, servidor RADIUS) usando:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once trapped, all network traffic is terminated by the PacketFence system.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T223616Z" changeid="djkakaroto">
+        <seg>Uma vez preso, todo o tráfego da rede é finalizado pelo sistema PacketFence.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Operating System Best Practices</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T180446Z" changeid="djkakaroto">
+        <seg>Melhores Práticas no Sistema Operacional</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Operating System Requirements</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T174336Z" changeid="djkakaroto">
+        <seg>Requisitos de Funcionamento de Sistema</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Optional components</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175826Z" changeid="djkakaroto">
+        <seg>Componentes Opcionais</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Or, if you prefer, to install only the core PacketFence without all the external services, you can use :</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110813T215648Z" changeid="djkakaroto">
+        <seg>Ou, se preferir, para instalar somente o núcleo PacketFence sem todos os serviços externos, você pode usar:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Other distributions such as Debian, Fedora and Gentoo are known to work but this document won't cover them.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T234416Z" changeid="djkakaroto">
+        <seg>Outras distribuições tais como Debian, Fedora e Gentoo são conhecidas para trabalhar, mas este documento não irá cobri-los.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Other sources of information</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T185924Z" changeid="djkakaroto">
+        <seg>Outra informação dos fontes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Out of band</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T193235Z" changeid="djkakaroto">
+        <seg>Fora de banda</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PacketFence can authenticate users that register devices via the captive-portal using a flat file, an LDAP (or Active Directory) server or a RADIUS server.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T023347Z" changeid="djkakaroto">
+        <seg>PacketFence pode autenticar os usuários que registram os dispositivos através do portal captive usando um arquivo simples, um servidor LDAP (ou Active Directory) ou um servidor RADIUS.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PacketFence correlates the Nessus vulnerability ID's of each scan to the violation configuration, returning content specific web pages about which vulnerability the host may have.&lt;/f1&gt;</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T223052Z" changeid="djkakaroto">
+        <seg>PacketFence correlaciona a vulnerabilidade Nessus ID de cada varredura na configuração de violação, retornando páginas web de conteúdo específico sobre o qual a vulnerabilidade do host pode ter.&lt;/f1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PacketFence integrates perfectly with wireless networks through a &lt;/f0&gt;&lt;a1&gt;FreeRADIUS&lt;/a1&gt;&lt;f2&gt; module.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T194855Z" changeid="djkakaroto">
+        <seg>PacketFence integra perfeitamente com redes sem fio através de um módulo &lt;/f0&gt;&lt;a1&gt;FreeRADIUS&lt;/a1&gt;&lt;f2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PacketFence is a fully supported, trusted, Free and Open Source network access control (NAC) system.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T192041Z" changeid="djkakaroto">
+        <seg>PacketFence é totalmente suportado, confiável, gratuito e um sistema Open Source de Controle de Acesso a Rede (NAC).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PacketFence needs to know which switches, access points or controllers it manages, their type and configuration.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T025508Z" changeid="djkakaroto">
+        <seg>PacketFence precisa saber que switches, access points ou controladores que gerencia, seu tipo e configuração.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PacketFence provides a web-based administration interface for easy configuration and operational management.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T012801Z" changeid="djkakaroto">
+        <seg>PacketFence fornece uma interface de administração baseada na web para fácil configuração e gerenciamento operacional.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PacketFence reuses many components in an infrastructure.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T225806Z" changeid="djkakaroto">
+        <seg>PacketFence reutiliza muitos componentes em uma infra-estrutura.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PacketFence supports an optional registration mechanism similar to &quot;captive portal&quot; solutions.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T200051Z" changeid="djkakaroto">
+        <seg>PacketFence suporta um mecanismo de registro opcional semelhante a soluções de Captive Portal.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PacketFence supports several isolation techniques, including VLAN isolation with VoIP support (even in heterogeneous environments) for multiple switch vendors.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T223335Z" changeid="djkakaroto">
+        <seg>PacketFence suporta várias técnicas de isolamento, incluindo isolamento de VLAN com suporte VoIP (mesmo em ambientes heterogêneos) para múltiplos fornecedores de switches.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PacketFence supports the following operating systems on the i386 or x86_64 architectures:</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T232240Z" changeid="djkakaroto">
+        <seg>PacketFence suporta os seguintes sistemas operacionais nas arquiteturas i386 ou x86_64:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PacketFence takes care of handling the operation of the following services:</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T234842Z" changeid="djkakaroto">
+        <seg>PacketFence cuida do funcionamento e operação dos seguintes serviços:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PacketFence will use MySQL, Apache, ISC DHCP, ISC DNS.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T000419Z" changeid="djkakaroto">
+        <seg>PacketFence usará MySQL, Apache, ISC DHCP, ISC DNS.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PacketFence's operation is completely out of band which allows the solution to scale geographically and to be more resilient to failures.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T193552Z" changeid="djkakaroto">
+        <seg>PacketFence é completamente uma operação fora de banda que permite a solução a escala geográfica e de ser mais resistente a falhas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PacketFence&lt;br0/&gt;</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T181139Z" changeid="djkakaroto">
+        <seg>PacketFence&lt;br0/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Performance optimization</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T180635Z" changeid="djkakaroto">
+        <seg>Otimização do Desempenho</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.2 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T025105Z" changeid="djkakaroto">
+        <seg>É dada permissão para copiar, distribuir e/ou modificar este documento sob os termos da GNU Free Documentation License, Versão 1.2 ou qualquer versão posterior publicada pela Free Software Foundation; sem Seções Invariantes, sem Textos de Capa Frontal, e sem Textos de Capa do Verso.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Proactive vulnerability scans</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T222517Z" changeid="djkakaroto">
+        <seg>Varredura de vulnerabilidade Pró-Ativa</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Production DHCP access</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175359Z" changeid="djkakaroto">
+        <seg>Acesso a Produção DHCP</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>RADIUS</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T023843Z" changeid="djkakaroto">
+        <seg>RADIUS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>RADIUS server</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T231804Z" changeid="djkakaroto">
+        <seg>Servidor RADIUS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>RADIUS server (FreeRADIUS)</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T230254Z" changeid="djkakaroto">
+        <seg>Servidor RADIUS (FreeRADIUS)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Red Hat Enterprise Linux 5.x Server</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T232325Z" changeid="djkakaroto">
+        <seg>Servidor Red Hat Enterprise Linux 5.x</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Registration</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T195339Z" changeid="djkakaroto">
+        <seg>Registro</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Remediation through a captive portal</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T223410Z" changeid="djkakaroto">
+        <seg>Remediação através de um Captive Portal</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Routed Networks</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175428Z" changeid="djkakaroto">
+        <seg>Redes Roteadas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SELinux</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T174833Z" changeid="djkakaroto">
+        <seg>SELinux</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SSL is enabled by default to secure access.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T022049Z" changeid="djkakaroto">
+        <seg>SSL é ativado por padrão para proteger o acesso.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Selecting an Authentication Method</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T024018Z" changeid="djkakaroto">
+        <seg>Selecionando um Método de Autenticação</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Server</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T231959Z" changeid="djkakaroto">
+        <seg>Servidor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Services start-up</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T234455Z" changeid="djkakaroto">
+        <seg>Serviços de Inicialização</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Snort</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T231807Z" changeid="djkakaroto">
+        <seg>Snort</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Snort (Network IDS)</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T234901Z" changeid="djkakaroto">
+        <seg>Snort (Network IDS)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Snort 2.8</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T231809Z" changeid="djkakaroto">
+        <seg>Snort 2.8</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Software Download</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T174442Z" changeid="djkakaroto">
+        <seg>Download do Software</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Software Installation</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T174547Z" changeid="djkakaroto">
+        <seg>Instalação do Software</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some PacketFence dependencies are available through the DAG repository (&lt;a0&gt;http://dag.wieers.com/&lt;/a0&gt;) so you need to configure YUM to use it.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110812T001054Z" changeid="djkakaroto">
+        <seg>Algumas dependênciasdo PacketFence estão dispovíveis através do repositório DAG (&lt;a0&gt;http://dag.wieers.com/&lt;/a0&gt;) então você precisa configurar o YUM para usá-lo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Starting PacketFence Services</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175510Z" changeid="djkakaroto">
+        <seg>Iniciando os Serviços PacketFence</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Starting with 1.8.5, PacketFence is now provided as an RPM repository for Red Hat Enterprise Linux 5 / CentOS 5 instead of a single RPM file.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110813T213828Z" changeid="djkakaroto">
+        <seg>Começando com 1.8.5, PacketFence é agora fornecido como um repositório RPM para Red Hat Enterprise Linux 5 / CentOS 5 em vez de um arquivo RPM único.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Switch IP</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T030732Z" changeid="djkakaroto">
+        <seg>Switch IP</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Switch Setup</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175719Z" changeid="djkakaroto">
+        <seg>Instalação do Switch</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Switch uplink ports (trunks and non-managed ports)</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T030942Z" changeid="djkakaroto">
+        <seg>Portas de switch uplink (troncos e portas não gerenciadas)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Switch vendor/type</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T030759Z" changeid="djkakaroto">
+        <seg>Switch fornecedor/tipo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>System Requirements</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T174116Z" changeid="djkakaroto">
+        <seg>Requisitos de Sistema</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Technical introduction to VLAN mode</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T184226Z" changeid="djkakaroto">
+        <seg>Introdução técnica ao modo de VLAN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Testing: pfsetvlan writes in the log files what it would normally do, but it doesn't do anything.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110815T223054Z" changeid="djkakaroto">
+        <seg>Testing: pfsetvlan writes in the log files what it would normally do, but it doesn't do anything.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;f0&gt;/usr/local/pf/conf/pf.conf&lt;/f0&gt; file contains the PacketFence general configuration.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T013942Z" changeid="djkakaroto">
+        <seg>O arquivo &lt;f0&gt;/usr/local/pf/conf/pf.conf&lt;/f0&gt; contém a configuração geral do PacketFence.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The PacketFence configuration for Apache is located in &lt;f0&gt;/usr/local/pf/conf/httpd.conf&lt;/f0&gt;.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T021739Z" changeid="djkakaroto">
+        <seg>A configuração do PacketFence para o Apache está localizado em &lt;f0&gt;/usr/local/pf/conf/httpd.conf&lt;/f0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following table provides hardware recommendations for the server and desktops :</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T231955Z" changeid="djkakaroto">
+        <seg>A tabela a seguir fornece recomendações para o Servidor e Desktops:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following table provides recommendations for the required components, together with version numbers :</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T231640Z" changeid="djkakaroto">
+        <seg>A tabela a seguir fornece recomendações para os componentes necessários, junto com números de versão:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The instructions are based on version 2.2.1 of PacketFence.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T185653Z" changeid="djkakaroto">
+        <seg>As instruções são baseadas na versão 2.2.1 do PacketFence</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The latest version of this guide is available at &lt;a0&gt;http://www.packetfence.org/documentation/&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T185753Z" changeid="djkakaroto">
+        <seg>A última versão deste guia está disponível em &lt;a0&gt;http://www.packetfence.org/documentation/&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The script will give you different avenues for configuration templates, either for ARP mode or VLAN mode.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T011728Z" changeid="djkakaroto">
+        <seg>O script irá dar-lhe caminhos diferentes para os modelos de configuração, tanto para o modo ARP ou modo VLAN.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Then again for webservice:</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T013433Z" changeid="djkakaroto">
+        <seg>Em seguida, novamente para webservice:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Then enter the new password twice.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T013413Z" changeid="djkakaroto">
+        <seg>Em seguida, digite a nova senha duas vezes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Then install the latest version of the RPMForge package (&lt;a0&gt;http://dag.wieers.com/rpm/packages/rpmforge-release/&lt;/a0&gt;):</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110812T001322Z" changeid="djkakaroto">
+        <seg>Em seguida, instale a última versão do pacote RPMForge (&lt;a0&gt;http://dag.wieers.com/rpm/packages/rpmforge-release/&lt;/a0&gt;):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Then:</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T235424Z" changeid="djkakaroto">
+        <seg>Então:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are three different working modes:</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110815T222711Z" changeid="djkakaroto">
+        <seg>Existem três diferentes modos de trabalho:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These files are included in the package and release tarballs.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T191749Z" changeid="djkakaroto">
+        <seg>Esses arquivos estão incluídos no pacote e tarballs de lançamento</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This IP is used as the web server who hosts the &lt;f0&gt;common/network-access-detection.gif&lt;/f0&gt; which is used to detect if network access was enabled.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T015600Z" changeid="djkakaroto">
+        <seg>Este IP é usado como o servidor web que hospeda o &lt;f0&gt;common/network-access-detection.gif&lt;/f0&gt; que é usado para detectar se o acesso à rede foi ativada.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This allows you to secure your wired and wireless networks the same way using the same user database and using the same captive portal, providing a consistent user experience.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T195852Z" changeid="djkakaroto">
+        <seg>Isso permite a você proteger suas redes sem fio e com fio da mesma forma usando o banco de dados de usuário e usando o mesmo no Captive Portal, proporcionando uma experiência consistente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This files contains a default section including:</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T025941Z" changeid="djkakaroto">
+        <seg>Estes arquivos contém uma seção padrão, incluindo:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This guide will walk you through the installation and the day to day administration of the PacketFence solution.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T185522Z" changeid="djkakaroto">
+        <seg>Este guia irá conduzi-lo através da instalação e do dia a dia de administração da solução PacketFence.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This provides numerous advantages:</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110813T214111Z" changeid="djkakaroto">
+        <seg>Isto proporciona inúmeras vantagens:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This repository contains all required dependencies to install PacketFence.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110813T214020Z" changeid="djkakaroto">
+        <seg>Este repositório contém todas as dependências necessárias para instalar o PacketFence.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This section will guide you through the installation of PacketFence together with its dependencies.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T235229Z" changeid="djkakaroto">
+        <seg>Esta seção irá guiá-lo através da instalação do PacketFence juntamente com suas dependências.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Thus, it requires the following ones:</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T230009Z" changeid="djkakaroto">
+        <seg>Assim, exige o seguinte:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To configure authentication set the &lt;f0&gt;[registration].auth&lt;/f0&gt; option in &lt;f1&gt;/usr/local/pf/conf/pf.conf&lt;/f1&gt;:</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T024234Z" changeid="djkakaroto">
+        <seg>Para configurar a autenticação defina o &lt;f0&gt;[registration].auth&lt;/f0&gt; em option &lt;f1&gt;/usr/local/pf/conf/pf.conf&lt;/f1&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Upon PacketFence installation, a default configuration file is created which is suitable for most configurations.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T022034Z" changeid="djkakaroto">
+        <seg>Após a instalação do PacketFence, um arquivo de configuração padrão é criado, que é adequado para a maioria das configurações.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Version 2.2.1 – June 2011</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T173401Z" changeid="djkakaroto">
+        <seg>Versão 2.2.1 – Junho de 2011</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Voice over IP (VoIP) support.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T193634Z" changeid="djkakaroto">
+        <seg>Suporte a Voz sobre IP (VoIP).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Web Admin GUI</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T184452Z" changeid="djkakaroto">
+        <seg>Web Admin GUI</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Web server</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T231738Z" changeid="djkakaroto">
+        <seg>Servidor Web</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Web server (Apache)</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T230053Z" changeid="djkakaroto">
+        <seg>Servidor Web (Apache)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Web-based Administration Interface</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T174745Z" changeid="djkakaroto">
+        <seg>Interface de Administração baseada na Web</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Web-based and command-line interfaces for all management tasks.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T225534Z" changeid="djkakaroto">
+        <seg>Interfaces baseada na Web e linha de comando para todas as tarefas de gerenciamento.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Wireless integration</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T194656Z" changeid="djkakaroto">
+        <seg>Integração Wireless</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With the &lt;f0&gt;extras&lt;/f0&gt; yum repository enabled.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T233846Z" changeid="djkakaroto">
+        <seg>Com o &lt;f0&gt;extras&lt;/f0&gt; yum repositório ativado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With the EPEL (Extra Packages for Enterprise Linux) repository enabled.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T233212Z" changeid="djkakaroto">
+        <seg>Com o EPEL (Extra Packages para Enterprise Linux) repositório habilitado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Working modes</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110815T222644Z" changeid="djkakaroto">
+        <seg>Modos de trabalho</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You are now ready to configure it.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110813T220641Z" changeid="djkakaroto">
+        <seg>Agora você está pronto para configurá-lo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can modify the configuration directly in the &lt;f1&gt;switches.conf&lt;/f1&gt; file or you can do it in the Web Administration panel under Configuration -&gt; Switches.</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T025839Z" changeid="djkakaroto">
+        <seg>Você pode modificar a configuração diretamente no arquivo &lt;f1&gt;switches.conf&lt;/f1&gt; ou você pode fazê-lo no painel de Administração Web em Configuration -&gt; Switches.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You need to encrypt the new password in the &lt;f0&gt;admin.conf&lt;/f0&gt; file with &lt;f1&gt;htpasswd&lt;/f1&gt;:</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T013321Z" changeid="djkakaroto">
+        <seg>Você precisa criptografar a nova senha no arquivo &lt;f0&gt;admin.conf&lt;/f0&gt; com o &lt;f1&gt;htpasswd&lt;/f1&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You need to encrypt the password of each user with htpasswd like this :</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T023650Z" changeid="djkakaroto">
+        <seg>Você precisa criptografar a senha de cada usuário com htpasswd assim:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>and a switch section for each switch (managed by PacketFence) including:</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T030719Z" changeid="djkakaroto">
+        <seg>e a seção switch para cada switch (gerenciado pelo PacketFence), incluindo:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>auth=local,ldap,radius</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T024252Z" changeid="djkakaroto">
+        <seg>auth=local,ldap,radius</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>easy upgrade</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110813T214435Z" changeid="djkakaroto">
+        <seg>Atualização fácil</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>enabled=0</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110812T001721Z" changeid="djkakaroto">
+        <seg>enabled=0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>everything is packaged as RPM (no more CPAN hassle)</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110813T214408Z" changeid="djkakaroto">
+        <seg>Tudo é empacotado como RPM (sem problemas CPAN)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>htpasswd /usr/local/pf/conf/admin.conf admin</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T013341Z" changeid="djkakaroto">
+        <seg>htpasswd /usr/local/pf/conf/admin.conf admin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>htpasswd /usr/local/pf/conf/admin.conf webservice</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T013443Z" changeid="djkakaroto">
+        <seg>htpasswd /usr/local/pf/conf/admin.conf webservice</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>htpasswd /usr/local/pf/conf/user.conf newuser</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T023653Z" changeid="djkakaroto">
+        <seg>htpasswd /usr/local/pf/conf/user.conf newuser</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $LDAPBindDN = &quot;cn=ldapuser,dc=domain,dc=org&quot;;</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T023839Z" changeid="djkakaroto">
+        <seg>my $LDAPBindDN = &quot;cn=ldapuser,dc=domain,dc=org&quot;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $LDAPBindPassword = &quot;password&quot;;</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T023840Z" changeid="djkakaroto">
+        <seg>my $LDAPBindPassword = &quot;password&quot;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $LDAPServer = &quot;127.0.0.1&quot;;</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T023842Z" changeid="djkakaroto">
+        <seg>my $LDAPServer = &quot;127.0.0.1&quot;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $LDAPUserBase = &quot;ou=People,dc=domain,dc=org&quot;;</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T023829Z" changeid="djkakaroto">
+        <seg>my $LDAPUserBase = &quot;ou=People,dc=domain,dc=org&quot;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $LDAPUserKey = &quot;uid&quot;;</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T023831Z" changeid="djkakaroto">
+        <seg>my $LDAPUserKey = &quot;uid&quot;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $LDAPUserScope = &quot;one&quot;;</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T023835Z" changeid="djkakaroto">
+        <seg>my $LDAPUserScope = &quot;one&quot;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $RadiusSecret = 'testing123';</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T024000Z" changeid="djkakaroto">
+        <seg>my $RadiusSecret = 'testing123';</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $RadiusServer = 'localhost';</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T023959Z" changeid="djkakaroto">
+        <seg>my $RadiusServer = 'localhost';</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $passwdFile = '/usr/local/pf/conf/user.conf';</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110814T023640Z" changeid="djkakaroto">
+        <seg>my $passwdFile = '/usr/local/pf/conf/user.conf';</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>name=PacketFence Repository baseurl=&lt;/f0&gt;&lt;a2&gt;http://inverse.ca/downloads/PacketFence/RHEL5/$basearch&lt;/a2&gt;&lt;a3&gt;&lt;br4/&gt;</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110813T214731Z" changeid="djkakaroto">
+        <seg>name=PacketFence Repository baseurl=&lt;/f0&gt;&lt;a2&gt;http://inverse.ca/downloads/PacketFence/RHEL5/$basearch&lt;/a2&gt;&lt;a3&gt;&lt;br4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>networks.conf</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175725Z" changeid="djkakaroto">
+        <seg>networks.conf</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>per-switch re-definition of the vlans (if required)</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110815T222631Z" changeid="djkakaroto">
+        <seg>por switch redefinição de vlans (se necessário)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>pf.conf</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175724Z" changeid="djkakaroto">
+        <seg>pf.conf</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>pfcmd</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T184430Z" changeid="djkakaroto">
+        <seg>pfcmd</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>pfcmd_vlan</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T184431Z" changeid="djkakaroto">
+        <seg>pfcmd_vlan</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>rpm -i rpmforge-release-0.5.2-2.el5.rf.i386.rpm</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110812T001332Z" changeid="djkakaroto">
+        <seg>rpm -i rpmforge-release-0.5.2-2.el5.rf.i386.rpm</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>rpm -import http://dag.wieers.com/rpm/packages/RPM-GPG-KEY.dag.txt</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110812T001213Z" changeid="djkakaroto">
+        <seg>rpm -import http://dag.wieers.com/rpm/packages/RPM-GPG-KEY.dag.txt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>switches.conf</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T175723Z" changeid="djkakaroto">
+        <seg>switches.conf</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>very easy installation</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110813T214148Z" changeid="djkakaroto">
+        <seg>Instalação muito fácil</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>yum groupinstall --enablerepo=PacketFence,rpmforge Packetfence-complete</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110813T215522Z" changeid="djkakaroto">
+        <seg>yum groupinstall --enablerepo=PacketFence,rpmforge Packetfence-complete</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>yum install --enablerepo=PacketFence,rpmforge packetfence</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110813T215821Z" changeid="djkakaroto">
+        <seg>yum install --enablerepo=PacketFence,rpmforge packetfence</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>yum update</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T235843Z" changeid="djkakaroto">
+        <seg>yum update</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>– version 2.2.1</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T171904Z" changeid="djkakaroto">
+        <seg>– versão 2.2.1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>◾ 1 Network card</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T232037Z" changeid="djkakaroto">
+        <seg>◾ 1 Placa de rede</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>◾ 20 GB of disk space (RAID 1)</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T232027Z" changeid="djkakaroto">
+        <seg>◾ 20 GB de espaço em disco (RAID 1)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>◾ 2048 MB of RAM</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T232010Z" changeid="djkakaroto">
+        <seg>◾ 2048 MB de RAM</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>◾ Intel or AMD CPU 3 GHz</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T232005Z" changeid="djkakaroto">
+        <seg>◾ Intel ou AMD CPU 3 GHz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>❏</seg>
+      </tuv>
+      <tuv lang="PT-BR" changedate="20110811T193200Z" changeid="djkakaroto">
+        <seg>❏</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

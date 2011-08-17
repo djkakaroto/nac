@@ -1,0 +1,153 @@
+% ---------------------------------------------------------------------------------------------------------------- %
+%
+\documentclass[12pt, a4paper]{abnt}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage[num]{abntcite}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+\usepackage[pdfborder={0 0 0}]{hyperref}
+%\hypersetup{colorlinks=true}
+\usepackage{a4wide}            % correta formatação da página em A4
+\usepackage{setspace} 
+%
+% ---------------------------------------------------------------------------------------------------------------- %
+
+% ------------------------------------------------ SUMARIO ------------------------------------------------------- %
+\makeindex
+
+% ------------------------------- ---------- INICIO DO DOCUMENTO ------------------------------------------------- %
+\begin{document}
+
+% ------------------------------------------------ CAPA ---------------------------------------------------------- %
+\include{capa/capa}
+
+% ---------------------------------------------- CONTENTS ------------------------------------------------------- %
+\tableofcontents
+%\listoffigures  % Lista de Figuras
+%\listoftables  % Lista de Tabelas
+
+%\pagenumbering{arabic}  % fim da numeração das páginas em algarismos romanos
+
+% -------------------------------------------- RESUMO ----------------------------------------------------------- %
+%\include{resumo/resumo}
+
+% -------------------------------------------- ABSTRACT --------------------------------------------------------- %
+\include{abstract/abstract}
+
+% ------------------------------------------- CHAPTER 01 -------------------------------------------------------- %
+\include{01_chapter/01_chapter}
+
+\section{Seção}
+O problema da segurança de redes tem preocupado muita gente nos últimos tempos. Um dos principais serviços da Internet, a resolução de nomes através do DNS, tem sido motivo de inquietação, pois muitos serviços são baseados numa correta tradução entre um nome de rede em um endereço IP. Num artigo de 1995, Paul Vixie chamava a atenção para os problemas relacionados com o DNS e o BIND. Este artigo apresenta alguns dos problemas citados e mostra a solução encontrada pelo grupo de trabalho que está especificando extensões de segurança para o DNS, conhecidas normalmente pela sigla DNSSEC.
+
+\chapter{Apresentando o DNS}
+
+O \textbf{DNSSEC} \textit{(Domain Name System Security Extensions)} é um padrão internacional que estende a tecnologia DNS. O que DNSSEC adiciona é um sistema de resolução de nomes mais seguro, reduzindo o risco de manipulação de dados e dominios forjados. 
+
+O mecanismo utilizado pelo DNSSEC é baseado na tecnologia de criptografia que emprega assinaturas. \textbf{DNSSEC} utiliza um sistema de chaves assimétricas. Isso significa que alguém com um domínio compatível com DNSSEC possui um par de chaves eletrônicas que consistem em uma chave privada e uma chave pública. Em razão do mantenedor das chaves utilizar a chave privada para assinar digitalmente sua própria zona no DNS, é possível que todo mundo com acesso a chave pública desta zona verifique que os dados tranferidos desta zona estão intactos.
+
+\textbf{DNSSEC} soluciona alguns problemas encontrados na atual tecnologia DNS. Falsas informações DNS criam oportunidades para roubo de informações de terceiros ou alteração de dados em diversos tipos de transações, como compras eletrônicas. Na tecnologia DNS, um ataque DNS com informação forjada é extremamente dificil de ser detectado e na pratica impossível de ser previnido. O objetivo da extensão \textbf{DNSSEC} é assegurar o conteúdo do DNS e impedir estes ataques validando os dados e garantindo a origem das informações.
+
+\section{Para que serve DNSSEC}
+Provê segurança para a resolução de endereços. Funciona como um caminho alternativo para a verificação de autenticidade. Estas operações ocorrem antes de qualquer verificação de segurança em camadas superiores (\textbf{SSL, SSH, PGP} etc...).
+
+\section{Como Funciona}
+\begin{enumerate}
+\item[\textbf{*}] A autenticidade e integridade são providas pela assinatura dos Conjuntos de Registros de Recursos (Resource Records Sets - RRset) com uma chave privada.
+
+\item[\textbf{*}] Zonas delegadas (filhas) assinam seus proprios RRsets com sua chave privada.
+
+\item[\textbf{*}] Autenticidade da chave é verificada pela assinatura na zona pai do Recurso DS (Record DS) (hash da chave pública da zona filha).
+
+\item[\textbf{*}] A chave pública é usada para verificar RRSIGs dos RRsets.
+
+\item[\textbf{*}] Autenticidade da não existência de um nome ou tipo provida por uma cadeia de registros que aponta para o próximo em uma sequência canônica.
+\end{enumerate}
+
+\section{DNSSEC no .br}
+Atualmente o \textbf{Registro.br} é o responsavel pela implantação de DNSSEC nas TLDs .br.
+Entrou em operação no .br a partir de 04 de Junho de 2007. O DNSSEC é uso obrigatório somente nos domínios JUS.BR e no B.BR. Para todos os outros DPNs a utilização de DNSSEC é opcional.
+Este serviço está disponível para nomes registrados diretamente abaixo dos seguintes domínios:
+
+\textbf{DPNs genéricos} \textit{(Para pessoas físicas ou jurídicas)}
+\begin{enumerate}
+\item[•] COM.BR - Atividades comerciais
+\item[•] NET.BR - Atividades comerciais
+\end{enumerate}
+
+\textbf{DPNs para pessoas jurídicas}
+\begin{enumerate}
+\item[•] AGR.BR - Empresas agrícolas, fazendas
+\item[•] AM.BR - Empresas de radiodifusão sonora
+\item[•] ART.BR - Artes: música, pintura, folclore
+\item[•] B.BR - Bancos
+\item[•] COOP.BR - Cooperativas
+\item[•] ESP.BR - Esporte em geral
+\item[•] FAR.BR - Farmácias e drogarias
+\item[•] FM.BR - Empresas de radiodifusão sonora
+\item[•] G12.BR - Entidades de ensino de primeiro e segundo grau
+\item[•] GOV.BR - Entidades do governo federal
+\item[•] IMB.BR - Imobiliárias
+\item[•] IND.BR - Indústrias
+\item[•] INF.BR - Meios de informação (rádios, jornais, bibliotecas, etc..)
+\item[•] JUS.BR - Entidades do Poder Judiciário
+\item[•] MIL.BR - Forças Armadas Brasileiras
+\item[•] ORG.BR - Entidades não governamentais sem fins lucrativos
+\item[•] PSI.BR - Provedores de serviço Internet
+\item[•] RADIO.BR - Entidades que queiram enviar áudio pela rede
+\item[•] REC.BR - Atividades de entretenimento, diversão, jogos, etc...
+\item[•] SRV.BR - Empresas prestadoras de serviços
+\item[•] TMP.BR - Eventos temporários, como feiras e exposições
+\item[•] TUR.BR - Entidades da área de turismo
+\item[•] TV.BR - Empresas de radiodifusão de sons e imagens
+\item[•] ETC.BR - Entidades que não se enquadram nas outras categorias
+\end{enumerate}
+
+\textbf{DPNs para Profissionais Liberais} \textit{(Somente para pessoas físicas)}
+\begin{enumerate}
+\item[•] ADM.BR - Administradores
+\item[•] ADV.BR - Advogados
+\item[•] ARQ.BR - Arquitetos
+\item[•] ATO.BR - Atores
+\item[•] BIO.BR - Biólogos
+\item[•] BMD.BR - Biomédicos
+\item[•] CIM.BR - Corretores
+\item[•] CNG.BR - Cenógrafos
+\item[•] ECN.BR - Economistas
+\item[•] ENG.BR - Engenheiros
+\item[•] ETI.BR - Especialista em Tecnologia da Informação
+\item[•] FND.BR - Fonoaudiólogos
+\item[•] FOT.BR - Fotógrafos
+\item[•] FST.BR - Fisioterapeutas
+\item[•] GGF.BR - Geógrafos
+\item[•] JOR.BR - Jornalistas
+\item[•] LEL.BR - Leiloeiros
+\item[•] MAT.BR - Matemáticos e Estatísticos
+\item[•] MED.BR - Médicos
+\item[•] MUS.BR - Músicos
+\item[•] NOT.BR - Notários
+\item[•] NTR.BR - Nutricionistas
+\item[•] ODO.BR - Dentistas
+\item[•] PPG.BR - Publicitários e profissionais da área de propaganda e marketing
+\item[•] PRO.BR - Professores
+\item[•] PSC.BR - Psicólogos
+\item[•] QSL.BR - Rádio amadores
+\item[•] SLG.BR - Sociólogos
+\item[•] TAXI.BR - Taxistas
+\item[•] TRD.BR - Tradutores
+\item[•] VET.BR - Veterinários
+\item[•] ZLG.BR - Zoólogos
+\end{enumerate}
+
+\textbf{DPNs para Pessoas Físicas}
+\begin{enumerate}
+\item[•] BLOG.BR - Web logs
+\item[•] FLOG.BR - Foto logs
+\item[•] NOM.BR - Pessoas Físicas
+\item[•] VLOG.BR - Vídeo logs
+\item[•] WIKI.BR - Páginas do tipo wiki
+\end{enumerate}
+
+\end{document}
