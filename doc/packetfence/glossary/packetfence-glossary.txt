@@ -1,3 +1,0 @@
-Software Download	Download do Software
-/usr/local/pf/conf	/usr/local/pf/conf	PacketFence Conf
-
