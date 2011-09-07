@@ -1,0 +1,289 @@
+%\documentclass[12pt, a4paper]{abnt}
+\documentclass[brazil, ruledheader, pnumromarab,normaltoc]{abnt}
+%\documentclass[brazil, ruledheader]{abnt}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\makeatletter
+\usepackage{babel}
+\makeatother
+
+%\usepackage[num, abnt-alf, abnt-verbatim-entry=yes, cite]{abntcite}
+%\usepackage[num, abnt-alf, cite]{abntcite}
+\usepackage{graphicx, color}
+%\usepackage{url}
+%\usepackage{makeidx}
+%\usepackage{amsfonts}
+%\usepackage{amssymb}
+%\usepackage{indentfirst}
+\usepackage[colorlinks=true,linkcolor=blue,hyperindex, pdfborder={0 0 0}] {hyperref}
+
+%\usepackage{a4wide}            % correta formatação da página em A4
+%\usepackage{setspace} 
+%\usepackage{fancyhdr}
+\usepackage[normalem]{ulem}
+%\pagenumbering{roman}
+
+% Inserindo as informações do documento{author, title}
+\autor{{André Luiz Ramos de Souza} \\ {Diego de Souza Lopes}}
+
+%\titulo{Controle de Acesso à Rede com PacketFence}
+\titulo{Controle de Acesso à Rede\vspace{0.2cm}\\com\vspace{0.2cm}\\PacketFence}
+
+\orientador{Prof. MsC. Maurício Severich}
+
+%\instituicao{FACULDADE DE TECNOLOGIA SENAI DE  DESENVOLVIMENTO GERENCIAL - FATESG}
+
+\comentario{Monografia apresentada a Faculdade de Tecnologia SENAI de Desenvolvimento Gerencial como requisito a obtenção do título de Tecnólogo em Redes de Computadores.}
+
+\local{GOIÂNIA}
+
+\data{2011}
+
+\begin{document}
+
+% --------------------------- DESENHANDO A CAPA --------------------- %
+\begin{titlepage}
+\begin{center}
+
+%\vspace{0.1\textheight}
+
+\includegraphics{senai}
+
+%\vspace{0.1cm}
+
+\textbf{FACULDADE DE TECNOLOGIA SENAI DE\\DESENVOLVIMENTO GERENCIAL - FATESG}
+
+\textsc{SUPERIOR EM TECNOLOGIA EM REDES DE COMPUTADORES}
+
+%\hspace{.45\textwidth}
+\vspace{3cm}
+
+\large André Luiz Ramos de Souza\\Diego de Souza Lopes
+
+%\hspace{.35\textwidth}
+\vspace{3cm}
+
+\textbf{\LARGE Controle de Acesso à Rede\vspace{0.1cm}\\com\vspace{0.3cm}\\PacketFence}
+
+%\hspace{.35\textwidth}
+\vspace{2.5cm}
+
+%\textbf{Orientador:} MsC. Maurício Severich
+
+%\hspace{.35\textwidth}
+\vspace{3.5cm}
+%\vfill
+
+\large GOIÂNIA\\
+
+%\vspace{.5\textwidth}
+\large 2011
+
+\end{center}
+\end{titlepage}
+% --------------------------- FIM CAPA ------------------------------- %
+\folhaderosto
+%\folhadeaprovacao
+
+% --------------- FICHA CATALOGRAFICA ----------------------- %
+\begin{minipage}{7cm}
+\begin{center}
+%{\normalsize \bf \MakeUppercase{Ficha catalográfica}}
+\vspace{.15\textwidth}
+\begin{tabular}{|cl|} \hline
+  \hspace{1.3cm} & \\
+  & Souza, André L. Ramos\\
+  & \\
+  \hspace{0.2cm}  & \hspace{0.3cm} Controle de Acesso à Rede com PacketFence / André Luiz\\
+  &  Ramos de Souza, Diego de Souza Lopes. - Goiânia: 2011.\\
+%  & FATESG, 2011. \\
+  & \hspace{0.65cm} 58f. : il. \\
+  & \\
+  & \hspace{0.6cm} Orientador: Prof. MsC. Maurício Severich.\\
+  & \\
+  & \hspace{0.6cm} Trabalho de conclusão de curso (Redes de Computadores) -\\
+  & \hspace{0.6cm} Faculdade de Tecnologia SENAI DE DESENVOLVIMENTO \\
+  & \hspace{0.6cm} GERENCIAL, Goiânia, 2011.\\
+  & \\
+  & \hspace{0.6cm} Inclui bibliografia. \\
+% & \hspace{0.6cm} 1 - Detecção e classificação de faltas \hspace{0.1cm} 2 - 
+%Linhas de transmissão \\
+% & \hspace{0.6cm} 3 - Redes neurais artificiais \hspace{0.1cm} 4 - 
+%Transformada wavelet \hspace{0.1cm} 5 - Título\\
+  & \\
+% & \hspace{9.75cm} CDU 631.317.35 \\
+ \hline
+\end{tabular}
+\end{center}
+\end{minipage}
+% --------------------------- FIM ------------------------------- %
+
+
+% --------------------------- FOLHA APROVACAO ---------------------- %
+\begin{folhadeaprovacao}
+\setlength{\ABNTsignthickness}{0.4pt}
+\setlength{\ABNTsignskip}{1cm}
+\vspace*{0.2cm}
+\begin{center}
+\large André Luiz Ramos de Souza\\Diego de Souza Lopes\\
+%\hspace*{2cm}
+%\end{center}
+\vspace*{2cm}
+\textbf{\LARGE Controle de Acesso à Rede\vspace{0.1cm}\\com\vspace{0.3cm}\\PacketFence}
+\end{center}
+\vspace*{1cm}
+Monografia apresentada a Faculdade de Tecnologia SENAI de Desenvolvimento Gerencial como requisito a obtenção do título de Tecnólogo em Redes de Computadores.\\
+\vspace*{0.2cm}\\
+Goiânia, \uline{10}  de \uline{Dezembro} de 2011.\\
+%\vspace*{1cm}
+\begin{center}
+BANCA EXAMINADORA
+\end{center}
+%\hspace*{1cm}
+\assinatura{\textbf{Prof. MsC. Mauricio Severich}\\Orientador}
+%\hspace*{1cm}
+\assinatura{\textbf{Prof. MsC. Cicrano de Tal} \\ Faculdade de Tecnologia SENAI - FATESG}
+%\hspace*{1cm}     
+\assinatura{\textbf{Prof. MsC. Beltrano de Tal} \\ Faculdade de Tecnologia SENAI - FATESG} 
+      
+\end{folhadeaprovacao}
+% ----------------------- FIM FOLHA APROVACAO --------------------- %
+\sumario
+%\folhaderosto
+%\folhadeaprovacao
+%\tableofcontents
+%\listoffigures  % Lista de Figuras
+%\listoftables  % Lista de Tabelas
+
+% ------------------------------- FIM ------------------------------- %
+
+% ------------------------------ RESUMO ----------------------------- %
+\begin{resumo}
+$\phantom{linha em branco}$\\
+Teste \textcolor{blue}{de resumo}
+\end{resumo}
+% ---------------------------- FIM RESUMO ---------------------------- %
+
+% ----------------------------- ABSTRACT ----------------------------- %
+\begin{abstract}
+$\phantom{linha em branco}$\\
+Testes of resume
+\end{abstract} 
+% ---------------------------- FIM ABSTRACT -------------------------- %
+
+\chapter{TEMA DO PROJETO}
+Um aspecto pouco observado e que traz grande poder a um \textbf{"atacante"} (pessoa com más intenções contra uma organização que faz uso de uma infraestrutura de informática) da área de informática são os pontos de redes não utilizados pela organização e que continuam disponíveis, dando total acesso do atacante aos servidores e outros dispositivos que contêm dados sigilosos.
+\par
+Para preencher esse mercado com custo zero do software, será testado e implementado a solução de \textit{Network Access Control} (NAC) com o software PacketFence.
+\par
+Essa ferramenta controlará os acessos dos equipamentos na infraestrutura de redes de computadores, exigindo uma autenticação e registro do dispositivo conectado, além de verificar se no dispositivo conectado existe alguma falha de segurança ou atividade maliciosa no mesmo. Se a resposta for positiva, o mesmo será direcionado para uma área isolada para que sejam realizadas as possíveis correções dos problemas. Posteriormente à correção, esse equipamento (computador ou notebook) conseguirá realizar qualquer atividade na empresa, seja acesso à Internet ou acesso aos sistemas da organização.
+Será estudada a aplicabilidade da solução NAC em ambientes de redes heterogêneas. Esta solução será testada na rede administrativa de um ambiente real, a Faculdade Alfa.
+
+\chapter{PROBLEMA A SER ABORDADO}
+O NAC pode ser utilizado em qualquer organização que queira implantar controles de quem pode ou não acessar a rede cabeada.
+\par
+Estes controles são baseados em políticas de acessos ao ambiente corporativo.
+
+\chapter{OBJETIVOS A SEREM ATINGIDOS}
+\section{GERAL}
+Demonstrar através de uma implantação em ambiente real uma maneira de gerenciar os acessos à rede cabeada.
+
+\section{OBJETIVOS ESPECÍFICOS}
+Pretende-se com este trabalho preencher a falha de segurança que os pontos de redes sem utilização apresentam, com o uso do DHCP na corporação, o atacante pode facilmente obter  as configurações referente a infra-estrutura da corporação, tais como: endereço ip, máscara de rede, gateway e dns, deixando facilmente acessível a infraestrutura de rede com a obtenção destas informações. Possibilitando ataques originados de dispositivos não autorizados na rede.
+\par
+ É também parte do escopo deste trabalho apresentar uma tradução, dentro dos limites permissivos, para a língua portuguesa da documentação dos manuais do software PacketFence.
+
+\chapter{JUSTIFICATIVA DO PROJETO}
+Com a expansão das redes de computadores nos ambientes corporativos, se torna extremamente difícil o controle de quem pode ou não usar o cabeamento da organização. Portanto, uma pessoa com más intenções pode, se tiver conhecimento, utilizar dessa falha de segurança para roubar ou modificar dados sigilosos para os negócios da empresa, ou até mesmo ocasionar uma queda das operações eletrônicas da organização.
+\par
+Uma das intenções do trabalho é demonstrar como corrigir ou amenizar (fechar) essa falha com soluções open source existentes no mercado, pois o argumento dos gestores é que as soluções comerciais são caras, além de outra dificuldade bastante visível que seria a falta de mão de obra qualificada.
+
+\chapter{REFERÊNCIAS TEÓRICAS QUE O EMBASA}
+Serão utilizados os seguintes referenciais teóricos para o escopo deste trabalho e onde os seus respectivos conteúdo podem ser encontrados:
+
+\begin{enumerate}
+\item[-]Marcotte, Ludovic; Gehl, Dominik (2007-04-01). "PacketFence". Linux Journal. \url{http://www.linuxjournal.com/article/9551};
+\item[-]Inverse Inc., PacketFence Administration Guide. \url{http://www.packetfence.org/downloads/PacketFence/doc/PacketFence_Administration_Guide-2.2.1.pdf}. 03 de Ago 2011.
+\end{enumerate}
+
+\chapter{METODOLOGIA A SER UTILIZADA}
+Será realizada uma pesquisa exploratória em material escrito, como, por exemplo, artigo publicado pelos próprios desenvolvedores do sistema, para coleta e seleção de conteúdo pertinente ao escopo deste trabalho.
+\par
+Para a realização e desenvolvimento da parte prática, pode-se apontar a seguintes ações:
+\begin{enumerate}
+\item[-]{Configurar o servidor que fará as autenticações dos computadores e outros ativos de redes para utilizar a infraestrutura da empresa, sendo que esse servidor será o ponto central da rede, todas as conexões passarão por esse equipamento. Serão habilitadas as funcionalidades do software PacketFence (IDS, Nessus e Radius);}
+\item[-]{Faremos com que o servidor trabalhe juntamente com o switch para realizar o controle dos novos dispositivos que serão conectados à rede da empresa;}
+\item[-]{Tais configurações deverão ser realizadas com base na documentação original da ferramenta PacketFence, que será um dos principais documentos de pesquisa.}
+\end{enumerate}
+
+\chapter{CRONOGRAMA PARA A EXECUÇÃO DO TRABALHO DE TCC}
+\begin{tabular}{|p{4cm}|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{Atividades}&		\textbf{Mar}&	\textbf{Abr}&		\textbf{Mai}&		\textbf{Jun}&		\textbf{Jul}&		\textbf{Ago}&	\textbf{Set}&		\textbf{Out}&	\textbf{Nov}\\
+\hline
+Elaboração do projeto&	&	&	&	X&	X&	X&	&	&	\\
+\hline
+Entrega do Projeto&		&	&	&	&	&	&	&	&	X\\
+\hline
+Pesquisa Bibliográfica&	&	&	&	X&	X&	X&	&		&\\
+\hline
+Coleta de Dados&		&	&	&	&	&	X&	&		&\\
+\hline
+Apresentação e discussão dos dados&	&	&	&	&	&	&	X&	&\\
+\hline
+Conclusão&	&	&	&	&	&	&	&	X&	\\
+\hline
+Entrega do TCC&	&	&	&	&	&	&	&	&	X\\
+\hline
+Defesa da Banca&	&	&	&	&	&	&	&	&	X\\
+\hline
+\end{tabular}
+
+% --------------------------- BIBLIOGRAFIA ------------------------ %
+%\chapter{REFEÊNCIAS BIBLIOGRÁFICAS}
+%\bibliographystyle{abnt-alf}
+%\bibliography{modelo}
+
+\begin{thebibliography}{100} % 100 is a random guess of the total number of %references
+\addtolength{\leftmargin}{0.2in} % sets up alignment with the following line. \setlength{\itemindent}{-0.2in}
+
+\bibitem[1] {802.1q-2003} 802.1Q v2003. Chand, Disponível em: \url{http://chand.lums.edu.pk/cs573/resources/802.1Q-2003.pdf}. Acesso em: 29 de Ago 2011.
+
+\bibitem[2] {802.1q-2005} 802.1Q v2005, DCS. Disponível em: \url{http://www.dcs.gla.ac.uk/~lewis/teaching/802.1Q-2005.pdf}. Acesso em: 29 de Ago 2011.
+
+\bibitem[3] {Auth-FreeRadius} Authentication FreeRadius, TLDP, Disponível em: \url{http://tldp.org/HOWTO/8021X-HOWTO/freeradius.html}. Acesso em: 29 de Ago 2011.
+
+\bibitem[4] {rfc-radius} FreeRadius RFC. FreeRadius, Disponível em: \url{http://freeradius.org/rfc/}. Acesso em: 29 de Ago 2011.
+
+\bibitem[5] {biblioteca-unix} FreeRadius, Biblioteca Unix, Disponível em: \url{http://www.bibliotecaunix.org/index.php/FreeRadius}. Acesso em: 29 de Ago 2011.
+
+\bibitem[6] {hassel} Hassell Jonathan, \emph{Radius}. O'Reilly Media, 208 pág.
+
+\bibitem[7] {maura} Maura R. Douglas, Schmidt J. Kevin, \emph{SNMP Essencial}. 1ª Ed. Rio de Janeiro-RJ: Editora Campus 2001, 336 pág.
+
+\bibitem[8] {nessus-guide} Nessus Instalation Guide, Tenable Network Security, Disponível em: \url{http://static.tenable.com/documentation/nessus_4.4_installation_guide.pdf}. Acesso em: 29 de Ago 2011.
+
+\bibitem[9] {nessus-user} Nessus User Guide, Tenable Network Security, Disponível em: \url{http://static.tenable.com/documentation/nessus_4.4_user_guide.pdf}. Acesso em: 29 de Ago 2011.
+
+\bibitem[10] {prates} Prates Rubens, \emph{Guia de Consulta Rápida MySQL}. 1ª Ed. São Paulo-SP: Editora Novatec 2000, 107 pág.
+
+\bibitem[11] {russ} Russ Rogers, \emph{Nessus Network Auditing}, 2nd edition, Softcover, 448 pág.
+
+\bibitem[12] {snort-guide} Snort Instalation Guide Portuguese, Snort.org, Disponível em: \url{http://assets.sourcefire.com/snort/translated/Snort_Install_Portuguese.pdf}. Acesso em: 29 de Ago 2011.
+
+\bibitem[13] {snort-user} Snort User Guide, Snort.org, Disponível em: \url{http://www.snort.org/assets/166/snort_manual.pdf}. Acesso em: 29 de Ago 2011.
+
+\bibitem[14] {snort-ptg} Snort, PTGMedia, Disponível em: \url{http://ptgmedia.pearsoncmg.com/images/0131407333/downloads/0131407333.pdf}. Acesso em: 29 de Ago 2011.
+
+\bibitem[15] {tanenbaum} Tanenbaum S. Andrew, \emph{Redes de Computadores}. 4ª Ed. Rio de Janeiro: Elsevier/Editora Campus 2003, 945 pág.
+
+\bibitem[16] {torres} Torres Gabriel, \emph{Redes de Computadores - Curso Completo}. 2ª Ed. Rio de Janeiro-RJ: Axcel Books 2001, 664 pág.
+
+\bibitem[17] {trunk} Trunk utilizando 802.1q, Diego Dias, Disponível em: \url{http://desmontacia.wordpress.com/2011/06/06/vlan-trunk-utilizando-802-1q-dot1q/}. Acesso em: 29 de Ago 2011.
+
+\bibitem[18] {vlan-geral} Visão Geral VLAN, UFRJ. Disponível em : \url{http://www.gta.ufrj.br/grad/02_2/802.1p/visao.htm}. Acesso em: 29 de Ago 2011.
+
+\end{thebibliography}
+
+\end{document}
