@@ -9,14 +9,14 @@
 \makeatother
 
 %\usepackage[num, abnt-alf, abnt-verbatim-entry=yes, cite]{abntcite}
-%\usepackage[num, abnt-alf, cite]{abntcite}
+%\usepackage[abnt-alf]{abntcite}
 \usepackage{graphicx, color}
 %\usepackage{url}
 %\usepackage{makeidx}
 %\usepackage{amsfonts}
 %\usepackage{amssymb}
 %\usepackage{indentfirst}
-\usepackage[colorlinks=true,linkcolor=blue,hyperindex, pdfborder={0 0 0}] {hyperref}
+\usepackage[citecolor=green,colorlinks=true,linkcolor=blue,hyperindex, pdfborder={0 0 0}] {hyperref}
 
 %\usepackage{a4wide}            % correta formatação da página em A4
 %\usepackage{setspace} 
@@ -129,7 +129,7 @@
 \large André Luiz Ramos de Souza\\Diego de Souza Lopes\\
 %\hspace*{2cm}
 %\end{center}
-\vspace*{2cm}
+\vspace*{1.5cm}
 \textbf{\LARGE Controle de Acesso à Rede\vspace{0.1cm}\\com\vspace{0.3cm}\\PacketFence}
 \end{center}
 \vspace*{1cm}
@@ -143,9 +143,11 @@ BANCA EXAMINADORA
 %\hspace*{1cm}
 \assinatura{\textbf{Prof. MsC. Mauricio Severich}\\Orientador}
 %\hspace*{1cm}
-\assinatura{\textbf{Prof. MsC. Cicrano de Tal} \\ Faculdade de Tecnologia SENAI - FATESG}
+\assinatura{\textbf{Prof. MsC. Rafael de Tal} \\ Faculdade de Tecnologia SENAI - FATESG}
 %\hspace*{1cm}     
-\assinatura{\textbf{Prof. MsC. Beltrano de Tal} \\ Faculdade de Tecnologia SENAI - FATESG} 
+\assinatura{\textbf{Prof. MsC. Diogo de Tal} \\ Faculdade de Tecnologia SENAI - FATESG} 
+%\hspace*{1cm}
+\assinatura{\textbf{Prof. MsC. Fulano de Tal} \\ Faculdade de Tecnologia SENAI - FATESG} 
       
 \end{folhadeaprovacao}
 % ----------------------- FIM FOLHA APROVACAO --------------------- %
@@ -160,25 +162,110 @@ BANCA EXAMINADORA
 
 % ------------------------------ RESUMO ----------------------------- %
 \begin{resumo}
-$\phantom{linha em branco}$\\
-Teste \textcolor{blue}{de resumo}
+%$\phantom{linha em branco}$\\
+
+Um aspecto pouco observado e que traz grandes problemas para uma organização é a falta de controle de acesso em sua infraestrutrura, desde acesso a rede cabeada à sem fio. Atualmente os pontos de redes que estão em desuso em uma organização, poderá ser utilizado por pessoas com más intenções \emph{"atacante"}, pois desta forma é possível obter algumas informações básicas através deste ponto de rede, tais como:
+\begin{enumerate}
+\item[-]{Endereço IP};
+\item[-]{Máscara de Rede};
+\item[-]{Gateway};
+\item[-]{DNS's}
+\end{enumerate}
+\par Através das informações acima é um bom ponto de partida para um \emph{"atacante"}, explorar-se dessa falha de segurança da organização, pois é possível realizar interceptação de dados (captura), bem como realizar ataques aos recursos da organização (Servidores, Desktops), podendo conseguir dados sigilosos da mesma. Este trabalho explana o controle de acesso à rede, fazendo uso do software \textit{open source\footnote{Termo em inglês criado pela OSI (Open Source Initiative) e refere-se a software também conhecido como software livre}} \textbf{PacketFence}.\\ Será implementado em ambiente real (corporativo) o PacketFence, a organização participante deste trabalho é uma empresa do Grupo José Alves, referimos à Faculdade ALFA.\\
+
+\textbf{Palavras-Chave:} PacketFence, 802.1X, 802.1Q, EAP, Portal Captive, FreeRadius, Snort, Nessus, SNMP, DHCP, DNS.
+
 \end{resumo}
 % ---------------------------- FIM RESUMO ---------------------------- %
 
 % ----------------------------- ABSTRACT ----------------------------- %
 \begin{abstract}
-$\phantom{linha em branco}$\\
-Testes of resume
+%$\phantom{linha em branco}$\\
+A little noticed aspect and that brings big problems for an organization is the lack of access control in your infraestrutrura, since access to the wired network wireless. Currently the points of networks that are no longer used in an organization, can be used by people with bad intentions \emph {"attacker"}, because this way you can get some basic information through this network point, such as:
+\begin {enumerate}
+\item [-] {IP Address};
+\item [-] {Netmask};
+\item [-] {Gateway};
+\item [-] {DNS}
+\end{enumerate}
+\par
+Using the information above is a good starting point for a \emph {"attacker"}, to exploit this security flaw in the organization, it is possible to intercept data (capture) as well as conducting attacks on the organization's resources (servers, Desktops), you can achieve the same sensitive data. This paper explains the access control network, using software \textit {open source \footnote {English term created by the OSI (Open Source Initiative) and refers to software also known as free software}} \textbf {PacketFence}.  Will be implemented in a real environment (corporate) the PacketFence, the participating organization of this work is a company of the José Alves, refer to the Alpha School.\\
+
+\textbf {Keywords:} PacketFence, 802.1x, 802.1Q, EAP, Captive Portal, FreeRadius, Snort, Nessus, SNMP, DHCP, DNS.
 \end{abstract} 
 % ---------------------------- FIM ABSTRACT -------------------------- %
 
-\chapter{TEMA DO PROJETO}
+\chapter{Introdução}
 Um aspecto pouco observado e que traz grande poder a um \textbf{"atacante"} (pessoa com más intenções contra uma organização que faz uso de uma infraestrutura de informática) da área de informática são os pontos de redes não utilizados pela organização e que continuam disponíveis, dando total acesso do atacante aos servidores e outros dispositivos que contêm dados sigilosos.
 \par
 Para preencher esse mercado com custo zero do software, será testado e implementado a solução de \textit{Network Access Control} (NAC) com o software PacketFence.
 \par
 Essa ferramenta controlará os acessos dos equipamentos na infraestrutura de redes de computadores, exigindo uma autenticação e registro do dispositivo conectado, além de verificar se no dispositivo conectado existe alguma falha de segurança ou atividade maliciosa no mesmo. Se a resposta for positiva, o mesmo será direcionado para uma área isolada para que sejam realizadas as possíveis correções dos problemas. Posteriormente à correção, esse equipamento (computador ou notebook) conseguirá realizar qualquer atividade na empresa, seja acesso à Internet ou acesso aos sistemas da organização.
-Será estudada a aplicabilidade da solução NAC em ambientes de redes heterogêneas. Esta solução será testada na rede administrativa de um ambiente real, a Faculdade Alfa.
+
+\section{O que é NAC?}
+\emph{Network Access Control} é uma abordagem unificada para a segurança dos computadores em uma rede, sendo necessário o uso de várias tecnologias para realizar o controle de acesso à rede. Uma solução NAC \cite{nac} implementa autenticação IEEE 802.1x \cite{802.1x}, detecção de intrusão, gerenciamento na camada 2, 
+
+
+\section{PacketFence}
+PacketFence \cite{url-pf} é um software de código aberto, ou seja, open source. Atualmente desenvolvido por programadores que estão localizados nos Estados Unidos em sua maioria. Algumas características impressionantes, captive portal para registro e correção de dispositivos, gerenciamento centralizado com fio e sem fio, suporte 802.1x, isolamento de dispositivos problemáticos na camada 2, integração com o IDS Snort e do scanner de vulnerabilidade Nessus. PacketFence pode ser usado para prover efetivamente redes seguras, de pequena a grandes redes heterogêneas.
+
+\section{Autenticação 802.1x}
+http://standards.ieee.org/about/get/802/802.1.html
+
+
+\section{VLAN 802.1q}
+
+\section{Dynamic Host Configuration Protocol - DHCP}
+
+
+\section{Domain Name System - DNS}
+
+
+%\section{Servidor Web Apache}
+
+%\section{Banco de Dados - MySQL}
+
+\section{Simple Network Management Protocol - SNMP}
+\begin{enumerate}
+\item RFC 3584\cite{rfc-3584-}
+\item RFC 2119 - Best Current Practice
+\item RFC 2576 - Coexistencia entre SNMPv1, SNMPv2 e SNMPv3\cite{rfc-2576}
+\item RFC 2578 - Define Estrutura SMIv2 - Structure Management Information
+\item RFC 2579 - Define common MIB
+\item RFC 2580 - Define declarações e requisitos definindo capacidade de agente e gerenciamento
+\item RFC 3416 - Define operações do protocolo
+\item RFC 3417 - Define mapeamento de transporte usado em cabo
+\item RFC 3418 - Gerenciamento de Informação basica entidades SNMP
+\item RFC 1901 - Definição experimental usando SNMPv2
+\item RFC 3410 - Define SNMPv3
+\item RFC 3411 - Define a Arquitetura Framework Gerenciamento SNMP
+\item RFC 3412 - Define o processo de mensagem
+\item RFC 3413 - Define varios aplicativos SNMP
+\item RFC 3414 - Define o modelo de Segurança baseado em usuario
+\item RFC 3415 - Define modelo de controle de acesso baseado em visualização
+\item RFC 1303 - Capacidade descrever agentes para um ou mais modulos MIB
+\item RFC 1908 - Coexistencia entre SNMPv1 e SNMPv2
+\item RFC 2089 - Agente SNMP
+
+\item RFC 1157 - Define SNMPv1
+\item RFC 1155 - Define Estrutura SMIv1 - Structure Management Information
+\item RFC 1212 - Define Mecanismo SMIv1 
+\item RFC 1215 - Convenção para definir Traps SMIv1
+\end{enumerate}
+
+\section{Extensible Authentication Protocol - EAP}
+
+\section{Portal Captive}
+Portal Captive \cite{captive} é um aplicativo de firewall que intercepta todos os pacotes do cliente, redirecionando o tráfego para uma página WEB, onde o usuário deverá se autenticar para depois ser liberado o acesso do mesmo ao conteudo desejado.
+
+\section{Intrusion Detection System - IDS}
+\subsection{Snort}
+
+
+\section{Nessus}
+
+
+\section{FreeRadius}
 
 \chapter{PROBLEMA A SER ABORDADO}
 O NAC pode ser utilizado em qualquer organização que queira implantar controles de quem pode ou não acessar a rede cabeada.
@@ -242,48 +329,10 @@ Defesa da Banca&	&	&	&	&	&	&	&	&	X\\
 
 % --------------------------- BIBLIOGRAFIA ------------------------ %
 %\chapter{REFEÊNCIAS BIBLIOGRÁFICAS}
-%\bibliographystyle{abnt-alf}
-%\bibliography{modelo}
-
-\begin{thebibliography}{100} % 100 is a random guess of the total number of %references
-\addtolength{\leftmargin}{0.2in} % sets up alignment with the following line. \setlength{\itemindent}{-0.2in}
-
-\bibitem[1] {802.1q-2003} 802.1Q v2003. Chand, Disponível em: \url{http://chand.lums.edu.pk/cs573/resources/802.1Q-2003.pdf}. Acesso em: 29 de Ago 2011.
-
-\bibitem[2] {802.1q-2005} 802.1Q v2005, DCS. Disponível em: \url{http://www.dcs.gla.ac.uk/~lewis/teaching/802.1Q-2005.pdf}. Acesso em: 29 de Ago 2011.
-
-\bibitem[3] {Auth-FreeRadius} Authentication FreeRadius, TLDP, Disponível em: \url{http://tldp.org/HOWTO/8021X-HOWTO/freeradius.html}. Acesso em: 29 de Ago 2011.
-
-\bibitem[4] {rfc-radius} FreeRadius RFC. FreeRadius, Disponível em: \url{http://freeradius.org/rfc/}. Acesso em: 29 de Ago 2011.
-
-\bibitem[5] {biblioteca-unix} FreeRadius, Biblioteca Unix, Disponível em: \url{http://www.bibliotecaunix.org/index.php/FreeRadius}. Acesso em: 29 de Ago 2011.
-
-\bibitem[6] {hassel} Hassell Jonathan, \emph{Radius}. O'Reilly Media, 208 pág.
-
-\bibitem[7] {maura} Maura R. Douglas, Schmidt J. Kevin, \emph{SNMP Essencial}. 1ª Ed. Rio de Janeiro-RJ: Editora Campus 2001, 336 pág.
-
-\bibitem[8] {nessus-guide} Nessus Instalation Guide, Tenable Network Security, Disponível em: \url{http://static.tenable.com/documentation/nessus_4.4_installation_guide.pdf}. Acesso em: 29 de Ago 2011.
-
-\bibitem[9] {nessus-user} Nessus User Guide, Tenable Network Security, Disponível em: \url{http://static.tenable.com/documentation/nessus_4.4_user_guide.pdf}. Acesso em: 29 de Ago 2011.
-
-\bibitem[10] {prates} Prates Rubens, \emph{Guia de Consulta Rápida MySQL}. 1ª Ed. São Paulo-SP: Editora Novatec 2000, 107 pág.
-
-\bibitem[11] {russ} Russ Rogers, \emph{Nessus Network Auditing}, 2nd edition, Softcover, 448 pág.
-
-\bibitem[12] {snort-guide} Snort Instalation Guide Portuguese, Snort.org, Disponível em: \url{http://assets.sourcefire.com/snort/translated/Snort_Install_Portuguese.pdf}. Acesso em: 29 de Ago 2011.
-
-\bibitem[13] {snort-user} Snort User Guide, Snort.org, Disponível em: \url{http://www.snort.org/assets/166/snort_manual.pdf}. Acesso em: 29 de Ago 2011.
-
-\bibitem[14] {snort-ptg} Snort, PTGMedia, Disponível em: \url{http://ptgmedia.pearsoncmg.com/images/0131407333/downloads/0131407333.pdf}. Acesso em: 29 de Ago 2011.
-
-\bibitem[15] {tanenbaum} Tanenbaum S. Andrew, \emph{Redes de Computadores}. 4ª Ed. Rio de Janeiro: Elsevier/Editora Campus 2003, 945 pág.
-
-\bibitem[16] {torres} Torres Gabriel, \emph{Redes de Computadores - Curso Completo}. 2ª Ed. Rio de Janeiro-RJ: Axcel Books 2001, 664 pág.
-
-\bibitem[17] {trunk} Trunk utilizando 802.1q, Diego Dias, Disponível em: \url{http://desmontacia.wordpress.com/2011/06/06/vlan-trunk-utilizando-802-1q-dot1q/}. Acesso em: 29 de Ago 2011.
-
-\bibitem[18] {vlan-geral} Visão Geral VLAN, UFRJ. Disponível em : \url{http://www.gta.ufrj.br/grad/02_2/802.1p/visao.htm}. Acesso em: 29 de Ago 2011.
-
-\end{thebibliography}
+% plain, abnt-alf, abnt-num, unsrt, abbrv, alpha,
+\bibliographystyle{abnt-alf}
+\bibliography{tcc}
+%\addcontentsline{toc}{chapter}{Referências Bibliográficas}
+%\singlespacing
 
 \end{document}
