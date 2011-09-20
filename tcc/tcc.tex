@@ -1,11 +1,25 @@
+%\documentclass{myclass}
 %\documentclass[12pt, a4paper]{abnt}
-\documentclass[brazil, ruledheader, pnumromarab,normaltoc]{abnt}
+\documentclass[12pt, brazil, ruledheader, pnumromarab,normaltoc]{abnt}
 %\documentclass[brazil, ruledheader]{abnt}
 \usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
+%\usepackage[T1]{fontenc}
+%\usepackage{dsfont}
+
+%\chaptersize{\large}
+%\fontfamily{cmr}\fontseries{b}\selectfont
+%\renewcommand{\ABNTchapterfont}{\bfseries\sffamily\fontseries{b}\selectfont}
+%\renewcommand{\ABNTchapterfont}{\bfseries\fontfamily{cmr}\fontseries{b}\selectfont} % Computer Modern Bold
+%\renewcommand{\ABNTchapterfont}{\bfseries\fontfamily{cmss}\fontseries{sbc}\selectfont} % CM Sans Serif Semibold Condensed
+\renewcommand{\ABNTchapterfont}{\bfseries\fontfamily{ptm}\bfseries\selectfont} % Times Roman Bold
+\renewcommand{\ABNTsectionfont}{\bfseries\sffamily}
+%\renewcommand{\ABNTchapterfont}{\upshape}
+
+%\ABNTCHAPTERfont {\bfseries\large}
+% BUSCAR SOBRE TAXONOMY NAC
 
 \makeatletter
-\usepackage{babel}
+\usepackage[brazil]{babel}
 \makeatother
 
 %\usepackage[num, abnt-alf, abnt-verbatim-entry=yes, cite]{abntcite}
@@ -16,7 +30,7 @@
 %\usepackage{amsfonts}
 %\usepackage{amssymb}
 %\usepackage{indentfirst}
-\usepackage[citecolor=green,colorlinks=true,linkcolor=blue,hyperindex, pdfborder={0 0 0}] {hyperref}
+\usepackage[citecolor=red,colorlinks=true,linkcolor=blue,hyperindex, pdfborder={0 0 0}] {hyperref}
 
 %\usepackage{a4wide}            % correta formatação da página em A4
 %\usepackage{setspace} 
@@ -32,7 +46,7 @@
 
 \orientador{Prof. MsC. Maurício Severich}
 
-%\instituicao{FACULDADE DE TECNOLOGIA SENAI DE  DESENVOLVIMENTO GERENCIAL - FATESG}
+\instituicao{FACULDADE DE TECNOLOGIA SENAI DE  DESENVOLVIMENTO GERENCIAL - FATESG}
 
 \comentario{Monografia apresentada a Faculdade de Tecnologia SENAI de Desenvolvimento Gerencial como requisito a obtenção do título de Tecnólogo em Redes de Computadores.}
 
@@ -147,7 +161,7 @@ BANCA EXAMINADORA
 %\hspace*{1cm}     
 \assinatura{\textbf{Prof. MsC. Diogo de Tal} \\ Faculdade de Tecnologia SENAI - FATESG} 
 %\hspace*{1cm}
-\assinatura{\textbf{Prof. MsC. Fulano de Tal} \\ Faculdade de Tecnologia SENAI - FATESG} 
+%\assinatura{\textbf{Prof. MsC. Fulano de Tal} \\ Faculdade de Tecnologia SENAI - FATESG} 
       
 \end{folhadeaprovacao}
 % ----------------------- FIM FOLHA APROVACAO --------------------- %
@@ -195,37 +209,47 @@ Using the information above is a good starting point for a \emph {"attacker"}, t
 \end{abstract} 
 % ---------------------------- FIM ABSTRACT -------------------------- %
 
-\chapter{Introdução}
+\chapter{INTRODUÇÃO}
 Um aspecto pouco observado e que traz grande poder a um \textbf{"atacante"} (pessoa com más intenções contra uma organização que faz uso de uma infraestrutura de informática) da área de informática são os pontos de redes não utilizados pela organização e que continuam disponíveis, dando total acesso do atacante aos servidores e outros dispositivos que contêm dados sigilosos.
 \par
 Para preencher esse mercado com custo zero do software, será testado e implementado a solução de \textit{Network Access Control} (NAC) com o software PacketFence.
 \par
 Essa ferramenta controlará os acessos dos equipamentos na infraestrutura de redes de computadores, exigindo uma autenticação e registro do dispositivo conectado, além de verificar se no dispositivo conectado existe alguma falha de segurança ou atividade maliciosa no mesmo. Se a resposta for positiva, o mesmo será direcionado para uma área isolada para que sejam realizadas as possíveis correções dos problemas. Posteriormente à correção, esse equipamento (computador ou notebook) conseguirá realizar qualquer atividade na empresa, seja acesso à Internet ou acesso aos sistemas da organização.
 
+\chapter{CONCEITOS BÁSICOS}
 \section{O que é NAC?}
-\emph{Network Access Control} é uma abordagem unificada para a segurança dos computadores em uma rede, sendo necessário o uso de várias tecnologias para realizar o controle de acesso à rede. Uma solução NAC \cite{nac} implementa autenticação IEEE 802.1x \cite{802.1x}, detecção de intrusão, gerenciamento na camada 2, 
+\emph{Network Access Control} ou simplesmente \emph{NAC} é uma abordagem unificada para prover a segurança em uma rede, de acordo com \cite{interop-nac} é um controle genérico de acesso à rede. O controle de acesso poderá ser feito simplesmente com políticas de acesso ou definindo regras no firewall\footnote{É um dispositivo de rede que tem por objetivo aplicar políticas de segurança}.
+\par
+NAC é um sistema de controle diferente, tais como firewalls, porque tem ferramentas disponíveis para fornecer controle de acesso focado no usuário \cite{interop-nac}. A patente \cite{nac} implementada dois métodos, o IEEE 802.1x \cite{802.1x} e o método DHCP\footnote{Dynamic Host Configuration Protocol} \ref{sec:dhcp}, e controle na camada 2. Em uma solução completa de NAC \cite{nac} implementa controle de acesso, autenticação IEEE 802.1x veja a seção \ref{sec:802.1x}, captive portal seção \ref{sec:captive}, detecção de intrusão, gerenciamento na camada 2, scanner de vulnerabilidades. 
 
 
-\section{PacketFence}
-PacketFence \cite{url-pf} é um software de código aberto, ou seja, open source. Atualmente desenvolvido por programadores que estão localizados nos Estados Unidos em sua maioria. Algumas características impressionantes, captive portal para registro e correção de dispositivos, gerenciamento centralizado com fio e sem fio, suporte 802.1x, isolamento de dispositivos problemáticos na camada 2, integração com o IDS Snort e do scanner de vulnerabilidade Nessus. PacketFence pode ser usado para prover efetivamente redes seguras, de pequena a grandes redes heterogêneas.
-
-\section{Autenticação 802.1x}
-http://standards.ieee.org/about/get/802/802.1.html
-
-
-\section{VLAN 802.1q}
+\section{O que é PacketFence}
+PacketFence \cite{url-pf} é um software de código aberto, ou seja, open source. Atualmente desenvolvido por programadores que estão localizados nos Estados Unidos em sua maioria. Algumas características impressionantes, captive portal para registro e correção de dispositivos, gerenciamento centralizado com fio e sem fio, suporte 802.1x, isolamento de dispositivos problemáticos na camada 2, integração com o IDS Snort e do scanner de vulnerabilidade Nessus. PacketFence pode ser usado para prover efetivamente redes seguras, de pequena a grandes redes heterogêneas. \ref{sec:snmp}
 
 \section{Dynamic Host Configuration Protocol - DHCP}
 
+\subsection{DHCP Fingerprint}\label{sec:dhcp}
+www.fingerbank.org
 
 \section{Domain Name System - DNS}
 
+\section{IEEE 802.1x}\label{sec:802.1x}
+http://standards.ieee.org/about/get/802/802.1.html
+http://www.intel.com/support/pt/wireless/wlan/sb/cs-008413.htm
+
+\subsection{Extensible Authentication Protocol - EAP}
+http://www.ietf.org/rfc/rfc2284.txt
+
+\section{Captive Portal}\label{sec:captive}
+Captive Portal \cite{captive} é um aplicativo de firewall que intercepta todos os pacotes do cliente, redirecionando o tráfego para uma página WEB onde o usuário deverá se autenticar, posteriormente libera-se o acesso do mesmo ao conteudo desejado.
+
+\section{FreeRadius}
 
 %\section{Servidor Web Apache}
 
 %\section{Banco de Dados - MySQL}
 
-\section{Simple Network Management Protocol - SNMP}
+\section{Simple Network Management Protocol - SNMP} \label{sec:snmp}
 \begin{enumerate}
 \item RFC 3584\cite{rfc-3584-}
 \item RFC 2119 - Best Current Practice
@@ -253,79 +277,93 @@ http://standards.ieee.org/about/get/802/802.1.html
 \item RFC 1215 - Convenção para definir Traps SMIv1
 \end{enumerate}
 
-\section{Extensible Authentication Protocol - EAP}
-
-\section{Portal Captive}
-Portal Captive \cite{captive} é um aplicativo de firewall que intercepta todos os pacotes do cliente, redirecionando o tráfego para uma página WEB, onde o usuário deverá se autenticar para depois ser liberado o acesso do mesmo ao conteudo desejado.
+\section{IEEE 802.1q}
 
 \section{Intrusion Detection System - IDS}
 \subsection{Snort}
 
-
 \section{Nessus}
 
 
-\section{FreeRadius}
+\chapter{PACKETFENCE}
 
-\chapter{PROBLEMA A SER ABORDADO}
-O NAC pode ser utilizado em qualquer organização que queira implantar controles de quem pode ou não acessar a rede cabeada.
-\par
-Estes controles são baseados em políticas de acessos ao ambiente corporativo.
+\section{Características}
 
-\chapter{OBJETIVOS A SEREM ATINGIDOS}
-\section{GERAL}
-Demonstrar através de uma implantação em ambiente real uma maneira de gerenciar os acessos à rede cabeada.
+\section{Componentes}
 
-\section{OBJETIVOS ESPECÍFICOS}
-Pretende-se com este trabalho preencher a falha de segurança que os pontos de redes sem utilização apresentam, com o uso do DHCP na corporação, o atacante pode facilmente obter  as configurações referente a infra-estrutura da corporação, tais como: endereço ip, máscara de rede, gateway e dns, deixando facilmente acessível a infraestrutura de rede com a obtenção destas informações. Possibilitando ataques originados de dispositivos não autorizados na rede.
-\par
- É também parte do escopo deste trabalho apresentar uma tradução, dentro dos limites permissivos, para a língua portuguesa da documentação dos manuais do software PacketFence.
+\section{Requisitos de Sistema}
 
-\chapter{JUSTIFICATIVA DO PROJETO}
-Com a expansão das redes de computadores nos ambientes corporativos, se torna extremamente difícil o controle de quem pode ou não usar o cabeamento da organização. Portanto, uma pessoa com más intenções pode, se tiver conhecimento, utilizar dessa falha de segurança para roubar ou modificar dados sigilosos para os negócios da empresa, ou até mesmo ocasionar uma queda das operações eletrônicas da organização.
-\par
-Uma das intenções do trabalho é demonstrar como corrigir ou amenizar (fechar) essa falha com soluções open source existentes no mercado, pois o argumento dos gestores é que as soluções comerciais são caras, além de outra dificuldade bastante visível que seria a falta de mão de obra qualificada.
+\section{Requisitos de Hardware}
 
-\chapter{REFERÊNCIAS TEÓRICAS QUE O EMBASA}
-Serão utilizados os seguintes referenciais teóricos para o escopo deste trabalho e onde os seus respectivos conteúdo podem ser encontrados:
 
-\begin{enumerate}
-\item[-]Marcotte, Ludovic; Gehl, Dominik (2007-04-01). "PacketFence". Linux Journal. \url{http://www.linuxjournal.com/article/9551};
-\item[-]Inverse Inc., PacketFence Administration Guide. \url{http://www.packetfence.org/downloads/PacketFence/doc/PacketFence_Administration_Guide-2.2.1.pdf}. 03 de Ago 2011.
-\end{enumerate}
+\chapter{IMPLEMENTANDO NA PRÁTICA}
 
-\chapter{METODOLOGIA A SER UTILIZADA}
-Será realizada uma pesquisa exploratória em material escrito, como, por exemplo, artigo publicado pelos próprios desenvolvedores do sistema, para coleta e seleção de conteúdo pertinente ao escopo deste trabalho.
-\par
-Para a realização e desenvolvimento da parte prática, pode-se apontar a seguintes ações:
-\begin{enumerate}
-\item[-]{Configurar o servidor que fará as autenticações dos computadores e outros ativos de redes para utilizar a infraestrutura da empresa, sendo que esse servidor será o ponto central da rede, todas as conexões passarão por esse equipamento. Serão habilitadas as funcionalidades do software PacketFence (IDS, Nessus e Radius);}
-\item[-]{Faremos com que o servidor trabalhe juntamente com o switch para realizar o controle dos novos dispositivos que serão conectados à rede da empresa;}
-\item[-]{Tais configurações deverão ser realizadas com base na documentação original da ferramenta PacketFence, que será um dos principais documentos de pesquisa.}
-\end{enumerate}
+\section{PacketFence}
 
-\chapter{CRONOGRAMA PARA A EXECUÇÃO DO TRABALHO DE TCC}
-\begin{tabular}{|p{4cm}|c|c|c|c|c|c|c|c|c|c|}
-\hline
-\textbf{Atividades}&		\textbf{Mar}&	\textbf{Abr}&		\textbf{Mai}&		\textbf{Jun}&		\textbf{Jul}&		\textbf{Ago}&	\textbf{Set}&		\textbf{Out}&	\textbf{Nov}\\
-\hline
-Elaboração do projeto&	&	&	&	X&	X&	X&	&	&	\\
-\hline
-Entrega do Projeto&		&	&	&	&	&	&	&	&	X\\
-\hline
-Pesquisa Bibliográfica&	&	&	&	X&	X&	X&	&		&\\
-\hline
-Coleta de Dados&		&	&	&	&	&	X&	&		&\\
-\hline
-Apresentação e discussão dos dados&	&	&	&	&	&	&	X&	&\\
-\hline
-Conclusão&	&	&	&	&	&	&	&	X&	\\
-\hline
-Entrega do TCC&	&	&	&	&	&	&	&	&	X\\
-\hline
-Defesa da Banca&	&	&	&	&	&	&	&	&	X\\
-\hline
-\end{tabular}
+\section{Configuração Switch}
+
+
+\chapter{CONCLUSÃO}
+
+%\chapter{PROBLEMA A SER ABORDADO}
+%O NAC pode ser utilizado em qualquer organização que queira implantar controles de quem pode ou não acessar a rede cabeada.
+%\par
+%Estes controles são baseados em políticas de acessos ao ambiente corporativo.
+%
+%\chapter{OBJETIVOS A SEREM ATINGIDOS}
+%\section{GERAL}
+%Demonstrar através de uma implantação em ambiente real uma maneira de gerenciar os acessos à rede cabeada.
+%
+%\section{OBJETIVOS ESPECÍFICOS}
+%Pretende-se com este trabalho preencher a falha de segurança que os pontos de redes sem utilização apresentam, com o uso do DHCP na corporação, o atacante pode facilmente obter  as configurações referente a infra-estrutura da corporação, tais como: endereço ip, máscara de rede, gateway e dns, deixando facilmente acessível a infraestrutura de rede com a obtenção destas informações. Possibilitando ataques originados de dispositivos não autorizados na rede.
+%\par
+% É também parte do escopo deste trabalho apresentar uma tradução, dentro dos limites permissivos, para a língua portuguesa da documentação dos manuais do software PacketFence.
+%
+%\chapter{JUSTIFICATIVA DO PROJETO}
+%Com a expansão das redes de computadores nos ambientes corporativos, se torna extremamente difícil o controle de quem pode ou não usar o cabeamento da organização. Portanto, uma pessoa com más intenções pode, se tiver conhecimento, utilizar dessa falha de segurança para roubar ou modificar dados sigilosos para os negócios da empresa, ou até mesmo ocasionar uma queda das operações eletrônicas da organização.
+%\par
+%Uma das intenções do trabalho é demonstrar como corrigir ou amenizar (fechar) essa falha com soluções open source existentes no mercado, pois o argumento dos gestores é que as soluções comerciais são caras, além de outra dificuldade bastante visível que seria a falta de mão de obra qualificada.
+%
+%\chapter{REFERÊNCIAS TEÓRICAS QUE O EMBASA}
+%Serão utilizados os seguintes referenciais teóricos para o escopo deste trabalho e onde os seus respectivos conteúdo podem ser encontrados:
+%
+%\begin{enumerate}
+%\item[-]Marcotte, Ludovic; Gehl, Dominik (2007-04-01). "PacketFence". Linux Journal. \url{http://www.linuxjournal.com/article/9551};
+%\item[-]Inverse Inc., PacketFence Administration Guide. \url{http://www.packetfence.org/downloads/PacketFence/doc/PacketFence_Administration_Guide-2.2.1.pdf}. 03 de Ago 2011.
+%\end{enumerate}
+%
+%\chapter{METODOLOGIA A SER UTILIZADA}
+%Será realizada uma pesquisa exploratória em material escrito, como, por exemplo, artigo publicado pelos próprios desenvolvedores do sistema, para coleta e seleção de conteúdo pertinente ao escopo deste trabalho.
+%\par
+%Para a realização e desenvolvimento da parte prática, pode-se apontar a seguintes ações:
+%\begin{enumerate}
+%\item[-]{Configurar o servidor que fará as autenticações dos computadores e outros ativos de redes para utilizar a infraestrutura da empresa, sendo que esse servidor será o ponto central da rede, todas as conexões passarão por esse equipamento. Serão habilitadas as funcionalidades do software PacketFence (IDS, Nessus e Radius);}
+%\item[-]{Faremos com que o servidor trabalhe juntamente com o switch para realizar o controle dos novos dispositivos que serão conectados à rede da empresa;}
+%\item[-]{Tais configurações deverão ser realizadas com base na documentação original da ferramenta PacketFence, que será um dos principais documentos de pesquisa.}
+%\end{enumerate}
+%
+%\chapter{CRONOGRAMA PARA A EXECUÇÃO DO TRABALHO DE TCC}
+%\begin{tabular}{|p{4cm}|c|c|c|c|c|c|c|c|c|c|}
+%\hline
+%\textbf{Atividades}&		\textbf{Mar}&	\textbf{Abr}&		\textbf{Mai}&		\textbf{Jun}&		\textbf{Jul}&		\textbf{Ago}&	\textbf{Set}&		\textbf{Out}&	\textbf{Nov}\\
+%\hline
+%Elaboração do projeto&	&	&	&	X&	X&	X&	&	&	\\
+%\hline
+%Entrega do Projeto&		&	&	&	&	&	&	&	&	X\\
+%\hline
+%Pesquisa Bibliográfica&	&	&	&	X&	X&	X&	&		&\\
+%\hline
+%Coleta de Dados&		&	&	&	&	&	X&	&		&\\
+%\hline
+%Apresentação e discussão dos dados&	&	&	&	&	&	&	X&	&\\
+%\hline
+%Conclusão&	&	&	&	&	&	&	&	X&	\\
+%\hline
+%Entrega do TCC&	&	&	&	&	&	&	&	&	X\\
+%\hline
+%Defesa da Banca&	&	&	&	&	&	&	&	&	X\\
+%\hline
+%\end{tabular}
 
 % --------------------------- BIBLIOGRAFIA ------------------------ %
 %\chapter{REFEÊNCIAS BIBLIOGRÁFICAS}
