@@ -1,22 +1,20 @@
-%\documentclass{myclass}
 %\documentclass[12pt, a4paper]{abnt}
 \documentclass[12pt, brazil, ruledheader, pnumromarab,normaltoc]{abnt}
 %\documentclass[brazil, ruledheader]{abnt}
 \usepackage[utf8]{inputenc}
 %\usepackage[T1]{fontenc}
 %\usepackage{dsfont}
+%\usepackage{verbatim}
 
 %\chaptersize{\large}
 %\fontfamily{cmr}\fontseries{b}\selectfont
 %\renewcommand{\ABNTchapterfont}{\bfseries\sffamily\fontseries{b}\selectfont}
 %\renewcommand{\ABNTchapterfont}{\bfseries\fontfamily{cmr}\fontseries{b}\selectfont} % Computer Modern Bold
 %\renewcommand{\ABNTchapterfont}{\bfseries\fontfamily{cmss}\fontseries{sbc}\selectfont} % CM Sans Serif Semibold Condensed
-\renewcommand{\ABNTchapterfont}{\bfseries\fontfamily{ptm}\bfseries\selectfont} % Times Roman Bold
+\renewcommand{\ABNTchapterfont}{\bfseries\fontfamily{ptm}\fontseries{b}\selectfont} % Times Roman Bold
+%\renewcommand{\ABNTsectionfont}{\bfseries\fontfamily{cmr}\fontseries{b}\selectfont}
 \renewcommand{\ABNTsectionfont}{\bfseries\sffamily}
 %\renewcommand{\ABNTchapterfont}{\upshape}
-
-%\ABNTCHAPTERfont {\bfseries\large}
-% BUSCAR SOBRE TAXONOMY NAC
 
 \makeatletter
 \usepackage[brazil]{babel}
@@ -89,9 +87,9 @@
 \vspace{3.5cm}
 %\vfill
 
-\large GOIÂNIA\\
+\normalsize GOIÂNIA\\
 
-%\vspace{.5\textwidth}
+%\vspace{.1\textwidth}
 \large 2011
 
 \end{center}
@@ -210,26 +208,62 @@ Using the information above is a good starting point for a \emph {"attacker"}, t
 % ---------------------------- FIM ABSTRACT -------------------------- %
 
 \chapter{INTRODUÇÃO}
-Um aspecto pouco observado e que traz grande poder a um \textbf{"atacante"} (pessoa com más intenções contra uma organização que faz uso de uma infraestrutura de informática) da área de informática são os pontos de redes não utilizados pela organização e que continuam disponíveis, dando total acesso do atacante aos servidores e outros dispositivos que contêm dados sigilosos.
+Um aspecto pouco observado pelas organizações é a falta de controle de acesso à infraestrutura de rede, principalmente os pontos de rede não utilizados e que continuam ativos em sua infraestrutura, dando total acesso a pessoas com intenções adversas, podendo explorar-se dessa falha para obter dados sigilosos ou realizar ataques aos servidores da organização.
 \par
-Para preencher esse mercado com custo zero do software, será testado e implementado a solução de \textit{Network Access Control} (NAC) com o software PacketFence.
+Afim de preencher esse mercado em crescimento contínuo que demanda a cada dia maior controle de acesso a infraestrutura de rede e que surgem novas ameaças e vulnerabilidades constantemente, existe uma ferramenta com custo zero, o \textbf{PacketFence}, o mesmo será testado e implementado. Essa é uma solução denominada \textit{Network Access Control}  ou simplesmente \emph{NAC}.
 \par
-Essa ferramenta controlará os acessos dos equipamentos na infraestrutura de redes de computadores, exigindo uma autenticação e registro do dispositivo conectado, além de verificar se no dispositivo conectado existe alguma falha de segurança ou atividade maliciosa no mesmo. Se a resposta for positiva, o mesmo será direcionado para uma área isolada para que sejam realizadas as possíveis correções dos problemas. Posteriormente à correção, esse equipamento (computador ou notebook) conseguirá realizar qualquer atividade na empresa, seja acesso à Internet ou acesso aos sistemas da organização.
+A ferramenta controlará os acessos dos equipamentos na infraestrutura de redes de computadores, exigindo uma autenticação e registro do dispositivo conectado, além de verificar se no dispositivo conectado existe alguma falha de segurança ou atividade maliciosa no mesmo. Se a resposta for positiva, o mesmo será direcionado para uma área isolada para que sejam realizadas as possíveis correções dos problemas. Posteriormente à correção, esse equipamento (computador ou notebook) conseguirá realizar qualquer atividade na empresa, seja acesso à Internet ou acesso aos sistemas da organização.
 
+%\part{Conceitos Básicos:\\Teoria}
 \chapter{CONCEITOS BÁSICOS}
-\section{O que é NAC?}
+\section{O que é Network Access Control?}\label{sec:nac}
 \emph{Network Access Control} ou simplesmente \emph{NAC} é uma abordagem unificada para prover a segurança em uma rede, de acordo com \cite{interop-nac} é um controle genérico de acesso à rede. O controle de acesso poderá ser feito simplesmente com políticas de acesso ou definindo regras no firewall\footnote{É um dispositivo de rede que tem por objetivo aplicar políticas de segurança}.
 \par
-NAC é um sistema de controle diferente, tais como firewalls, porque tem ferramentas disponíveis para fornecer controle de acesso focado no usuário \cite{interop-nac}. A patente \cite{nac} implementada dois métodos, o IEEE 802.1x \cite{802.1x} e o método DHCP\footnote{Dynamic Host Configuration Protocol} \ref{sec:dhcp}, e controle na camada 2. Em uma solução completa de NAC \cite{nac} implementa controle de acesso, autenticação IEEE 802.1x veja a seção \ref{sec:802.1x}, captive portal seção \ref{sec:captive}, detecção de intrusão, gerenciamento na camada 2, scanner de vulnerabilidades. 
+NAC é um sistema de controle diferente, tais como firewalls, porque tem ferramentas disponíveis para fornecer controle de acesso focado no usuário \cite{interop-nac}.
 
+%\subsection{Algumas Referencias a Patentes}
+A patente \cite{nac} implementada dois métodos, o IEEE 802.1x \cite{802.1x} e o método DHCP\footnote{Dynamic Host Configuration Protocol} \ref{sec:dhcp}, e controle na camada 2.
+
+\subsection{NAC 1.0: Porque falhou}
+As organizações estão cada vez mais querendo controlar o acesso a rede com o uso de tecnologias que melhor proteja suas redes e dados.
+De acordo com \cite{mfrizzi} a geração NAC 1.0 falhou devido ao foco em bloqueio de clientes e a falta de agilidade, pois o ambiente de novas ameaças surgiam constantemente e novas vulnerabilidades aparecendo a cada dia, surgindo desta forma um problema muito maior em termos de segurança de uma organização.
+
+\subsection{NAC 2.0: Um novo modelo para um futuro mais seguro}
+Em uma solução completa de NAC \cite{nac} implementa controle de acesso, autenticação IEEE 802.1x veja a seção \ref{sec:802.1x}, captive portal seção \ref{sec:captive}, detecção de intrusão, gerenciamento na camada 2, scanner de vulnerabilidades. 
+
+\subsection{NAC 3.0: Introdução}
+http://blogs.mcafee.com/enterprise/nac/introducing-the-third-generation-of-nac
+
+\section{O que é Network Access Protection?}
+
+\section{O que é Network Admission Control?}
 
 \section{O que é PacketFence}
-PacketFence \cite{url-pf} é um software de código aberto, ou seja, open source. Atualmente desenvolvido por programadores que estão localizados nos Estados Unidos em sua maioria. Algumas características impressionantes, captive portal para registro e correção de dispositivos, gerenciamento centralizado com fio e sem fio, suporte 802.1x, isolamento de dispositivos problemáticos na camada 2, integração com o IDS Snort e do scanner de vulnerabilidade Nessus. PacketFence pode ser usado para prover efetivamente redes seguras, de pequena a grandes redes heterogêneas. \ref{sec:snmp}
+PacketFence \cite{url-pf} é um software de código aberto e construido sobre padrões abertos, ou seja, para evitar o fechamento do padrão por parte do fabricante. A seguir a relação de padrões utilizados:
+\begin{enumerate}
+\item [•] 802.1X seção \ref{sec:802.1x}
+\item [•] Simple Network Management Protocol - SNMP seção \ref{sec:snmp}
+\item [•] Standard SNMP management information base (MIB) like BRIDGE-MIB, Q-BRIDGE-MIB, IF-MIB, IEEE8021-PAE-MIB
+\item [•] RADIUS seção \ref{sec:radius}
+\item [•] NetFlow / IPFIX seção \ref{sec:netflow}
+\item [•] Wireless ISP Roaming (WISPR)
+\end{enumerate}
+
+Atualmente desenvolvido por programadores que estão localizados nos Estados Unidos em sua maioria. Algumas características impressionantes, captive portal para registro e correção de dispositivos, gerenciamento centralizado com fio e sem fio, suporte 802.1x, isolamento de dispositivos problemáticos na camada 2, integração com o IDS Snort e do scanner de vulnerabilidade Nessus. PacketFence pode ser usado para prover efetivamente redes seguras, de pequena a grandes redes heterogêneas.
+
+\section{Soluções Comerciais NAC}
+https://mosaicsecurity.com/categories/81-network-access-control
 
 \section{Dynamic Host Configuration Protocol - DHCP}
+DHCP é definido na RFC 2131 \cite{rfc-2131}, o mesmo é um protocolo de configuração dinâmica de host.
 
 \subsection{DHCP Fingerprint}\label{sec:dhcp}
-www.fingerbank.org
+DHCP Fingerprint é um identificador quase único para um determinado sistema operacional específico ou dispositivo. Através desse identificador é possível saber o sistema operacional do cliente. Devido a difusão do protocolo DHCP essa é a maneira mais simples de obter-se informação referente ao cliente. Como definido na RFC 2132, obter a identificação do cliente é possível com o uso da opção "Option Code 61 - Client Identification".
+\par
+As assinaturas são bastante importantes para ferramentas de analise de rede, tais como sniffers de rede, analisadores de protocolo e soluções NAC. %\ref{sec:nac}
+\subsection{Como Funciona}
+O cliente DHCP requisita um pedido DHCP nessa requisição ele solicita as opções de DHCP tais como DNS Server, Servidor WINS, gateway padrão, etc. Através da ordem como esse pedido é solicitado essas opções é relativamente único, identificando a versão específica do sistema operacional.
+\cite{fingerbank}
 
 \section{Domain Name System - DNS}
 
@@ -241,9 +275,10 @@ http://www.intel.com/support/pt/wireless/wlan/sb/cs-008413.htm
 http://www.ietf.org/rfc/rfc2284.txt
 
 \section{Captive Portal}\label{sec:captive}
-Captive Portal \cite{captive} é um aplicativo de firewall que intercepta todos os pacotes do cliente, redirecionando o tráfego para uma página WEB onde o usuário deverá se autenticar, posteriormente libera-se o acesso do mesmo ao conteudo desejado.
+Captive Portal é um aplicativo de firewall que captura todos os pacotes do cliente e redireciona o tráfego para uma página WEB, onde o cliente deverá fornecer suas credênciais, tais como usuário, senha ou certificado digital. Ao fornecer as credênciais é verificado se são válidas, caso as credênciais sejam válidas, autoriza-se o acesso a rede.
+\cite{captive}
 
-\section{FreeRadius}
+\section{FreeRadius}\label{sec:radius}
 
 %\section{Servidor Web Apache}
 
@@ -251,9 +286,9 @@ Captive Portal \cite{captive} é um aplicativo de firewall que intercepta todos 
 
 \section{Simple Network Management Protocol - SNMP} \label{sec:snmp}
 \begin{enumerate}
-\item RFC 3584\cite{rfc-3584-}
+\item RFC 3584\cite{rfc-3584}
 \item RFC 2119 - Best Current Practice
-\item RFC 2576 - Coexistencia entre SNMPv1, SNMPv2 e SNMPv3\cite{rfc-2576}
+\item RFC 2576 - Coexistencia entre SNMPv1, SNMPv2 e SNMPv3
 \item RFC 2578 - Define Estrutura SMIv2 - Structure Management Information
 \item RFC 2579 - Define common MIB
 \item RFC 2580 - Define declarações e requisitos definindo capacidade de agente e gerenciamento
@@ -277,6 +312,8 @@ Captive Portal \cite{captive} é um aplicativo de firewall que intercepta todos 
 \item RFC 1215 - Convenção para definir Traps SMIv1
 \end{enumerate}
 
+\section{Netflow / IPFIX} \label{sec:netflow}
+
 \section{IEEE 802.1q}
 
 \section{Intrusion Detection System - IDS}
@@ -296,7 +333,7 @@ Captive Portal \cite{captive} é um aplicativo de firewall que intercepta todos 
 \section{Requisitos de Hardware}
 
 
-\chapter{IMPLEMENTANDO NA PRÁTICA}
+\chapter{IMPLEMENTAÇÃO E CONFIGURAÇÃO}
 
 \section{PacketFence}
 
