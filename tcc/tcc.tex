@@ -90,7 +90,8 @@
 \normalsize GOIÂNIA\\
 
 %\vspace{.1\textwidth}
-\large 2011
+%\large 2011
+\normalsize 2011
 
 \end{center}
 \end{titlepage}
@@ -105,7 +106,7 @@
 \vspace{.15\textwidth}
 \begin{tabular}{|cl|} \hline
   \hspace{1.3cm} & \\
-  & Souza, André L. Ramos\\
+  & Ramos, André Luiz de Souza\\
   & \\
   \hspace{0.2cm}  & \hspace{0.3cm} Controle de Acesso à Rede com PacketFence / André Luiz\\
   &  Ramos de Souza, Diego de Souza Lopes. - Goiânia: 2011.\\
@@ -216,29 +217,30 @@ A ferramenta controlará os acessos dos equipamentos na infraestrutura de redes 
 
 %\part{Conceitos Básicos:\\Teoria}
 \chapter{CONCEITOS BÁSICOS}
-\section{O que é Network Access Control?}\label{sec:nac}
-\emph{Network Access Control} ou simplesmente \emph{NAC} é uma abordagem unificada para prover a segurança em uma rede, de acordo com \cite{interop-nac} é um controle genérico de acesso à rede. O controle de acesso poderá ser feito simplesmente com políticas de acesso ou definindo regras no firewall\footnote{É um dispositivo de rede que tem por objetivo aplicar políticas de segurança}.
+\section{O que é Network Access Control ?}\label{sec:nac}
+\emph{Network Access Control} ou simplesmente \emph{NAC} é uma abordagem unificada afim de prover a segurança em uma rede de computadores. De acordo com \cite{interop-nac} NAC é um controle genérico de acesso à rede. Tal controle de acesso, poderia ser implementado simplesmente com o uso de políticas de acesso ou definindo regras no firewall.
 \par
-NAC é um sistema de controle diferente, tais como firewalls, porque tem ferramentas disponíveis para fornecer controle de acesso focado no usuário \cite{interop-nac}.
-
-%\subsection{Algumas Referencias a Patentes}
-A patente \cite{nac} implementada dois métodos, o IEEE 802.1x \cite{802.1x} e o método DHCP\footnote{Dynamic Host Configuration Protocol} \ref{sec:dhcp}, e controle na camada 2.
+Firewall é um dispositivo de rede que tem por objetivo aplicar políticas de segurança, verificando informações da camada de enlace (camada 2 do modelo OSI\footnote{Open Systems Interconnection}) e da camada de rede (camada 3 do modelo OSI). Aplicando políticas de filtragem  de pacotes TCP/IP  e portas.
+\par
+NAC é um sistema de controle diferente, tal como firewall, pois possuí ferramentas disponíveis para fornecer o controle de acesso focado no usuário \cite{interop-nac}. Ao contrário do firewall, onde esse controle é baseado em regras. Essas regras são baseadas em origem e destino dos pacotes, definindo-se o que é bloqueado e o que é liberado. Diferentemente de uma solução NAC, onde verifica-se a camada de aplicação (camada 7 do modelo OSI).
 
 \subsection{NAC 1.0: Porque falhou}
 As organizações estão cada vez mais querendo controlar o acesso a rede com o uso de tecnologias que melhor proteja suas redes e dados.
 De acordo com \cite{mfrizzi} a geração NAC 1.0 falhou devido ao foco em bloqueio de clientes e a falta de agilidade, pois o ambiente de novas ameaças surgiam constantemente e novas vulnerabilidades aparecendo a cada dia, surgindo desta forma um problema muito maior em termos de segurança de uma organização.
+\par
+A patente \cite{nac} implementa dois métodos, o IEEE 802.1x \cite{802.1x} e o método DHCP\footnote{Dynamic Host Configuration Protocol} \ref{sec:dhcp}, e controle na camada 2.
 
 \subsection{NAC 2.0: Um novo modelo para um futuro mais seguro}
 Em uma solução completa de NAC \cite{nac} implementa controle de acesso, autenticação IEEE 802.1x veja a seção \ref{sec:802.1x}, captive portal seção \ref{sec:captive}, detecção de intrusão, gerenciamento na camada 2, scanner de vulnerabilidades. 
 
-\subsection{NAC 3.0: Introdução}
+\subsection{NAC 3.0: A Evolução}
 http://blogs.mcafee.com/enterprise/nac/introducing-the-third-generation-of-nac
 
-\section{O que é Network Access Protection?}
+\section{O que é Network Access Protection ?}
 
-\section{O que é Network Admission Control?}
+\section{O que é Network Admission Control ?}
 
-\section{O que é PacketFence}
+\section{O que é PacketFence ?}
 PacketFence \cite{url-pf} é um software de código aberto e construido sobre padrões abertos, ou seja, para evitar o fechamento do padrão por parte do fabricante. A seguir a relação de padrões utilizados:
 \begin{enumerate}
 \item [•] 802.1X seção \ref{sec:802.1x}
@@ -251,9 +253,21 @@ PacketFence \cite{url-pf} é um software de código aberto e construido sobre pa
 
 Atualmente desenvolvido por programadores que estão localizados nos Estados Unidos em sua maioria. Algumas características impressionantes, captive portal para registro e correção de dispositivos, gerenciamento centralizado com fio e sem fio, suporte 802.1x, isolamento de dispositivos problemáticos na camada 2, integração com o IDS Snort e do scanner de vulnerabilidade Nessus. PacketFence pode ser usado para prover efetivamente redes seguras, de pequena a grandes redes heterogêneas.
 
+\subsection{Desenvolvimento Out-of-Band}
+
+\subsection{Desenvolvimento Inline}
+
+\subsection{Suporte 802.1X}
+
+\subsection{Integração Wireless}
+
+\subsection{Suporte VoIP}
+
+
 \section{Soluções Comerciais NAC}
 https://mosaicsecurity.com/categories/81-network-access-control
 
+\chapter{FERRAMENTAS, PADRÕES, PROTOCOLOS E TECNOLOGIAS}
 \section{Dynamic Host Configuration Protocol - DHCP}
 DHCP é definido na RFC 2131 \cite{rfc-2131}, o mesmo é um protocolo de configuração dinâmica de host.
 
@@ -265,7 +279,13 @@ As assinaturas são bastante importantes para ferramentas de analise de rede, ta
 O cliente DHCP requisita um pedido DHCP nessa requisição ele solicita as opções de DHCP tais como DNS Server, Servidor WINS, gateway padrão, etc. Através da ordem como esse pedido é solicitado essas opções é relativamente único, identificando a versão específica do sistema operacional.
 \cite{fingerbank}
 
-\section{Domain Name System - DNS}
+%\section{Domain Name System - DNS}
+
+\section{Captive Portal}\label{sec:captive}
+Captive Portal é um aplicativo de firewall que captura todos os pacotes do cliente e redireciona o tráfego para uma página WEB, onde o cliente deverá fornecer suas credênciais, tais como usuário, senha ou certificado digital. Ao fornecer as credênciais é verificado se são válidas, caso as credênciais sejam válidas, autoriza-se o acesso a rede.
+\cite{captive}
+
+\section{FreeRadius}\label{sec:radius}
 
 \section{IEEE 802.1x}\label{sec:802.1x}
 http://standards.ieee.org/about/get/802/802.1.html
@@ -274,43 +294,80 @@ http://www.intel.com/support/pt/wireless/wlan/sb/cs-008413.htm
 \subsection{Extensible Authentication Protocol - EAP}
 http://www.ietf.org/rfc/rfc2284.txt
 
-\section{Captive Portal}\label{sec:captive}
-Captive Portal é um aplicativo de firewall que captura todos os pacotes do cliente e redireciona o tráfego para uma página WEB, onde o cliente deverá fornecer suas credênciais, tais como usuário, senha ou certificado digital. Ao fornecer as credênciais é verificado se são válidas, caso as credênciais sejam válidas, autoriza-se o acesso a rede.
-\cite{captive}
-
-\section{FreeRadius}\label{sec:radius}
-
 %\section{Servidor Web Apache}
 
 %\section{Banco de Dados - MySQL}
 
 \section{Simple Network Management Protocol - SNMP} \label{sec:snmp}
-\begin{enumerate}
-\item RFC 3584\cite{rfc-3584}
-\item RFC 2119 - Best Current Practice
-\item RFC 2576 - Coexistencia entre SNMPv1, SNMPv2 e SNMPv3
-\item RFC 2578 - Define Estrutura SMIv2 - Structure Management Information
-\item RFC 2579 - Define common MIB
-\item RFC 2580 - Define declarações e requisitos definindo capacidade de agente e gerenciamento
-\item RFC 3416 - Define operações do protocolo
-\item RFC 3417 - Define mapeamento de transporte usado em cabo
-\item RFC 3418 - Gerenciamento de Informação basica entidades SNMP
-\item RFC 1901 - Definição experimental usando SNMPv2
-\item RFC 3410 - Define SNMPv3
-\item RFC 3411 - Define a Arquitetura Framework Gerenciamento SNMP
-\item RFC 3412 - Define o processo de mensagem
-\item RFC 3413 - Define varios aplicativos SNMP
-\item RFC 3414 - Define o modelo de Segurança baseado em usuario
-\item RFC 3415 - Define modelo de controle de acesso baseado em visualização
-\item RFC 1303 - Capacidade descrever agentes para um ou mais modulos MIB
-\item RFC 1908 - Coexistencia entre SNMPv1 e SNMPv2
-\item RFC 2089 - Agente SNMP
+Com o crescimento das redes de computadores, de pequenas redes domésticas para grandes redes espalhadas geograficamente e somado a isso vários equipamentos de fabricantes diferentes, a gerência dessas infra-estruturas fica cada vez mais complexas. O protocolo SNMP traz para os administradores de redes a minimização dessas complexidades.
+\par
+O Simple Network Management Protocol (SNMP) começou a ser desenvolvido no início da década de 80 pelo Internet Engineering Task Force (IETF) com o objetivo de simplificar a gerencia de redes. Com esse protrocolo é possível gerenciar switches, roteadores, softwares, qualquer dispositivo que permita recuperar informações de SNMP.
 
-\item RFC 1157 - Define SNMPv1
-\item RFC 1155 - Define Estrutura SMIv1 - Structure Management Information
-\item RFC 1212 - Define Mecanismo SMIv1 
-\item RFC 1215 - Convenção para definir Traps SMIv1
+\subsection{Arquitetura SNMP}
+Software de gerência de redes não segue o modelo de \emph{cliente/servidor}, modelo em que somente o cliente faz requisição ao servidor, e sim o conceito de gerente e agente. Nesse modelo as requisições podem ser feitas pelo gerente ao agente (operações GET e SET) ou pelo agente ao gerente (operação TRAP).
+
+\subsection{Gerente}
+A aplicação gerente é responsável pelo monitoramento e gerenciamento dos dispositivos gerenciados e também fornecer a interface para o gerente humano. Também conhecido como \emph{Network Management Stations - NMS}, são responsável pelas operações de \emph{pulling} e receber \emph{traps}.
+\par
+\emph{Pull} é a ação realizada pela NMS para ler dados na base de dados dos agentes e \emph{Trap} é a ação realizada pelos agentes para enviar dados (eventos) dos dispositivos gerenciados para o gerente ou NMS, as \emph{traps} também podem executar algum tipo de ação se a NMS solicitar.
+\par Desta forma, não sendo necessário que a NMS envie algum tipo de solicitação para o agente para que o mesmo envie uma \emph{trap}, esse processo é assíncrono, ou seja, o agente informa ao gerente automaticamente quando algo acontece no dispositivo gerenciado.
+
+\subsection{Agente}
+Aplicação que é armazenada nos dispositivos gerenciados, e é responsável em coletar eventos e informar ao gerente o que acontece no dispositivo.
+\par
+Para coletar essas informações, o agente faz a varredura do dispositivo monitorado.
+\par
+Por exemplo, se colocar um agente para monitorar um servidor de banco de dados, e se o uso do processador desse servidor aumentar além do que foi configurado como quantidade limite de operação, o agente imediatamente envia uma \emph{trap} para gerente (NMS), onde será tratada, informando do evento que está acontecendo e a NMS pode, se estiver configurado, enviar um email avisando o responsável pelo servidor sobre o que está acontecendo com aquele servidor.
+
+\subsection{MIB}
+A MIB (\emph{Management Information Base}) é a base de informação do objeto gerenciado. É através da MIB que estão as informações coletadas pelos agentes.
+\par
+Quando uma NMS consulta informações de um dispositivo gerenciado, é na MIB que são consultadas essas informações.
+\par
+São definidas três tipos de MIBs padão, MIB II, MIB Experimental e MIB Privada.
+\begin{enumerate}
+\item[*] {\textbf{MIB II:}} Evolução da MIB I, descrita pela RFC 1213;
+\item[*] {\textbf{MIB Experimental:}} Utilizada para desenvolvimento e testes de novas funcionalidades de gerenciamento;
+\item[*] {\textbf{MIB Privada:}} Fornece informações especificas dos dispositivos gerenciados.
 \end{enumerate}
+
+\par
+Todos os agentes contém a MIB II, pois essa MIB implementa os recursos necessários para monitoramento do protocolo TCP/IP, porém o agente pode implementar dos vários tipos de MIBs.
+\par
+Além dessas MIBs padão existem outras específicas para determinados tipos de serviços, por exemplo DNS Server MIB (RFC 1611) específica para servidores que executam serviços DNS.
+\par
+\textbf{Construção de MIB}
+\par 
+A construção da estrutura das MIBs é baseada em regras descritas através da SMI (\emph{Structure of Management Information}) - Estrutura de Informações de Gerenciamento. SMI define os objetos gerenciados.
+
+\subsection{Versões do Protocolo}
+
+%\begin{enumerate}
+%\item RFC 3584\cite{rfc-3584}
+%\item RFC 2119 - Best Current Practice
+%\item RFC 2576 - Coexistencia entre SNMPv1, SNMPv2 e SNMPv3
+%\item RFC 2578 - Define Estrutura SMIv2 - Structure Management Information
+%\item RFC 2579 - Define common MIB
+%\item RFC 2580 - Define declarações e requisitos definindo capacidade de agente e gerenciamento
+%\item RFC 3416 - Define operações do protocolo
+%\item RFC 3417 - Define mapeamento de transporte usado em cabo
+%\item RFC 3418 - Gerenciamento de Informação basica entidades SNMP
+%\item RFC 1901 - Definição experimental usando SNMPv2
+%\item RFC 3410 - Define SNMPv3
+%\item RFC 3411 - Define a Arquitetura Framework Gerenciamento SNMP
+%\item RFC 3412 - Define o processo de mensagem
+%\item RFC 3413 - Define varios aplicativos SNMP
+%\item RFC 3414 - Define o modelo de Segurança baseado em usuario
+%\item RFC 3415 - Define modelo de controle de acesso baseado em visualização
+%\item RFC 1303 - Capacidade descrever agentes para um ou mais modulos MIB
+%\item RFC 1908 - Coexistencia entre SNMPv1 e SNMPv2
+%\item RFC 2089 - Agente SNMP
+%
+%\item RFC 1157 - Define SNMPv1
+%\item RFC 1155 - Define Estrutura SMIv1 - Structure Management Information
+%\item RFC 1212 - Define Mecanismo SMIv1 
+%\item RFC 1215 - Convenção para definir Traps SMIv1
+%\end{enumerate}
 
 \section{Netflow / IPFIX} \label{sec:netflow}
 
@@ -322,7 +379,7 @@ Captive Portal é um aplicativo de firewall que captura todos os pacotes do clie
 \section{Nessus}
 
 
-\chapter{PACKETFENCE}
+\chapter{A FERRAMENTA}
 
 \section{Características}
 
