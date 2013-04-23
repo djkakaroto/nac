@@ -9,7 +9,7 @@ Este projeto foi escrito em Latex, sendo um modelo do pré-projeto de TCC.
 REQUISITOS
 ===
 
-* AbnTex2 - https://code.google.com/p/abntex2/
+* ABNTex2 - https://code.google.com/p/abntex2/
 * Texmaker - http://www.xm1math.net/texmaker/
 
 DETALHES
