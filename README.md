@@ -17,7 +17,7 @@ DETALHES
 O abnTeX2 é compatível com as seguintes normas vigentes:
 
 * ABNT NBR 6022:2003: Informação e documentação - Artigo em publicação periódica científica impressa - Apresentação
-* ABNT NBR 6023:2002: Informação e documentação - Referência - Elaboração**
+* ABNT NBR 6023:2002: Informação e documentação - Referência - Elaboração
 * ABNT NBR 6024:2012: Informação e documentação - Numeração progressiva das seções de um documento - Apresentação
 * ABNT NBR 6027:2012: Informação e documentação - Sumário - Apresentação
 * ABNT NBR 6028:2003: Informação e documentação - Resumo - Apresentação
@@ -32,4 +32,4 @@ OBSERVAÇÕES
 
 Este projeto foi concebido usando o pacote abntex em suas primeiras versões, sendo o atual abntex2 correspondente as especificidades da norma ABNT (2013).
 
-Para maiores informações de como moldar o trabalho, consulte a documentação abnTex2 https://code.google.com/p/abntex2
+Para maiores informações de como configurar o documento, consulte a documentação abnTex2 em https://code.google.com/p/abntex2
